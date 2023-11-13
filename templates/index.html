@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Player with Transcription</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}">
 </head>
 <body>
     <div>
@@ -17,15 +18,15 @@
     </div>
 
     <script>
-        // Fetch transcription data from the server
         fetch('/get_transcription')
             .then(response => response.json())
             .then(data => {
-                // Add transcription data to the HTML
                 const transcriptionList = document.getElementById('transcriptionList');
                 data.forEach(entry => {
                     const listItem = document.createElement('li');
-                    listItem.textContent = `${entry.timestamp} - ${entry.text}`;
+                    const from = entry.timestamps.from.split(',')[0];
+                    const to = entry.timestamps.to.split(',')[0];
+                    listItem.textContent = `${from} - ${to} - ${entry.text}`;
                     transcriptionList.appendChild(listItem);
                 });
 
@@ -34,8 +35,8 @@
                 audioPlayer.addEventListener('timeupdate', function () {
                     const currentTime = audioPlayer.currentTime;
                     transcriptionList.childNodes.forEach((item, index) => {
-                        const startTime = parseTimestamp(data[index].timestamp);
-                        const endTime = index < data.length - 1 ? parseTimestamp(data[index + 1].timestamp) : audioPlayer.duration;
+                        const startTime = parseTimestamp(data[index].timestamps.from);
+                        const endTime = parseTimestamp(data[index].timestamps.to);
                         
                         if (currentTime >= startTime && currentTime < endTime) {
                             item.style.backgroundColor = 'yellow'; // Highlight the current transcription
@@ -48,7 +49,8 @@
                 // Helper function to convert timestamp to seconds
                 function parseTimestamp(timestamp) {
                     const parts = timestamp.split(':');
-                    return parseInt(parts[0]) * 60 + parseFloat(parts[1]);
+                    const seconds = parseFloat(parts[0]) * 60 * 60 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+                    return seconds;
                 }
             });
     </script>
