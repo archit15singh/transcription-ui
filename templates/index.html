@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player with Transcription</title>
+</head>
+<body>
+    <div>
+        <audio controls id="audioPlayer">
+            <source src="{{ url_for('static', filename='audio/common_voice_en_38024628.mp3') }}" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div>
+        <ul id="transcriptionList"></ul>
+    </div>
+
+    <script>
+        // Fetch transcription data from the server
+        fetch('/get_transcription')
+            .then(response => response.json())
+            .then(data => {
+                // Add transcription data to the HTML
+                const transcriptionList = document.getElementById('transcriptionList');
+                data.forEach(entry => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${entry.timestamp} - ${entry.text}`;
+                    transcriptionList.appendChild(listItem);
+                });
+
+                // Add event listener to highlight corresponding transcription on audio time update
+                const audioPlayer = document.getElementById('audioPlayer');
+                audioPlayer.addEventListener('timeupdate', function () {
+                    const currentTime = audioPlayer.currentTime;
+                    transcriptionList.childNodes.forEach((item, index) => {
+                        const startTime = parseTimestamp(data[index].timestamp);
+                        const endTime = index < data.length - 1 ? parseTimestamp(data[index + 1].timestamp) : audioPlayer.duration;
+                        
+                        if (currentTime >= startTime && currentTime < endTime) {
+                            item.style.backgroundColor = 'yellow'; // Highlight the current transcription
+                        } else {
+                            item.style.backgroundColor = ''; // Remove highlight
+                        }
+                    });
+                });
+
+                // Helper function to convert timestamp to seconds
+                function parseTimestamp(timestamp) {
+                    const parts = timestamp.split(':');
+                    return parseInt(parts[0]) * 60 + parseFloat(parts[1]);
+                }
+            });
+    </script>
+</body>
+</html>
