@@ -45,9 +45,10 @@
   <body>
     <h1>Transcription using Whisper</h1>
     <div>
+      <div id="audioID" class="{{ audio_id }}"></div>
       <audio controls id="audioPlayer">
         <source
-          src="{{ url_for('static', filename='audio/1.wav') }}"
+          src="{{ url_for('static', filename='audio/' + audio_id + '.wav') }}"
           type="audio/wav"
         />
         Your browser does not support the audio element.
@@ -58,7 +59,9 @@
     </div>
 
     <script>
-      fetch("/get_transcription")
+      const audioElement = document.getElementById('audioID');
+      const audioID = audioElement.className;
+      fetch(`/get_transcription?id=${audioID}`)
         .then((response) => response.json())
         .then((data) => {
           const transcriptionList =
