@@ -63,22 +63,29 @@
                     listItem.textContent = `${from} - ${to} - ${entry.text}`;
                     transcriptionList.appendChild(listItem);
                 });
-
+    
                 const audioPlayer = document.getElementById('audioPlayer');
                 audioPlayer.addEventListener('timeupdate', function () {
                     const currentTime = audioPlayer.currentTime;
+                    let highlightedItem = null;
+    
                     transcriptionList.childNodes.forEach((item, index) => {
                         const startTime = parseTimestamp(data[index].timestamps.from);
                         const endTime = parseTimestamp(data[index].timestamps.to);
-                        
+    
                         if (currentTime >= startTime && currentTime < endTime) {
                             item.classList.add('highlighted');
+                            highlightedItem = item;
                         } else {
                             item.classList.remove('highlighted');
                         }
                     });
+    
+                    if (highlightedItem) {
+                        highlightedItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                 });
-
+    
                 function parseTimestamp(timestamp) {
                     const parts = timestamp.split(':');
                     const seconds = parseFloat(parts[0]) * 60 * 60 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
@@ -86,5 +93,6 @@
                 }
             });
     </script>
+    
 </body>
 </html>
