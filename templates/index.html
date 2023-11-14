@@ -1,98 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audio Player with Transcription</title>
-    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='images/favicon.png') }}"
+    />
 
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 20px;
-        }
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 20px;
+      }
 
-        audio {
-            width: 100%;
-            margin-bottom: 20px;
-        }
+      audio {
+        width: 100%;
+        margin-bottom: 20px;
+      }
 
-        #transcriptionList {
-            list-style-type: none;
-            padding: 0;
-        }
+      #transcriptionList {
+        list-style-type: none;
+        padding: 0;
+      }
 
-        li {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
+      li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
 
-        li:hover {
-            background-color: #f0f0f0;
-        }
+      li:hover {
+        background-color: #f0f0f0;
+      }
 
-        li.highlighted {
-            background-color: #c6f7ca;
-        }
+      li.highlighted {
+        background-color: #c6f7ca;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Transcription using Whisper</h1>
     <div>
-        <audio controls id="audioPlayer">
-            <source src="{{ url_for('static', filename='audio/conversation.mp3') }}" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
+      <audio controls id="audioPlayer">
+        <source
+          src="{{ url_for('static', filename='audio/1.wav') }}"
+          type="audio/wav"
+        />
+        Your browser does not support the audio element.
+      </audio>
     </div>
     <div>
-        <ul id="transcriptionList"></ul>
+      <ul id="transcriptionList"></ul>
     </div>
 
     <script>
-        fetch('/get_transcription')
-            .then(response => response.json())
-            .then(data => {
-                const transcriptionList = document.getElementById('transcriptionList');
-                data.forEach(entry => {
-                    const listItem = document.createElement('li');
-                    const from = entry.timestamps.from.split(',')[0];
-                    const to = entry.timestamps.to.split(',')[0];
-                    listItem.textContent = `${from} - ${to} - ${entry.text}`;
-                    transcriptionList.appendChild(listItem);
-                });
-    
-                const audioPlayer = document.getElementById('audioPlayer');
-                audioPlayer.addEventListener('timeupdate', function () {
-                    const currentTime = audioPlayer.currentTime;
-                    let highlightedItem = null;
-    
-                    transcriptionList.childNodes.forEach((item, index) => {
-                        const startTime = parseTimestamp(data[index].timestamps.from);
-                        const endTime = parseTimestamp(data[index].timestamps.to);
-    
-                        if (currentTime >= startTime && currentTime < endTime) {
-                            item.classList.add('highlighted');
-                            highlightedItem = item;
-                        } else {
-                            item.classList.remove('highlighted');
-                        }
-                    });
-    
-                    if (highlightedItem) {
-                        highlightedItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    }
-                });
-    
-                function parseTimestamp(timestamp) {
-                    const parts = timestamp.split(':');
-                    const seconds = parseFloat(parts[0]) * 60 * 60 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
-                    return seconds;
-                }
+      fetch("/get_transcription")
+        .then((response) => response.json())
+        .then((data) => {
+          const transcriptionList =
+            document.getElementById("transcriptionList");
+          data.forEach((entry) => {
+            const listItem = document.createElement("li");
+            const from = entry.timestamps.from.split(",")[0];
+            const to = entry.timestamps.to.split(",")[0];
+            listItem.textContent = `${from} - ${to} - ${entry.text}`;
+            transcriptionList.appendChild(listItem);
+          });
+
+          const audioPlayer = document.getElementById("audioPlayer");
+          audioPlayer.addEventListener("timeupdate", function () {
+            const currentTime = audioPlayer.currentTime;
+            let highlightedItem = null;
+
+            transcriptionList.childNodes.forEach((item, index) => {
+              const startTime = parseTimestamp(data[index].timestamps.from);
+              const endTime = parseTimestamp(data[index].timestamps.to);
+
+              if (currentTime >= startTime && currentTime < endTime) {
+                item.classList.add("highlighted");
+                highlightedItem = item;
+              } else {
+                item.classList.remove("highlighted");
+              }
             });
+
+            if (highlightedItem) {
+              highlightedItem.scrollIntoView({
+                behavior: "smooth",
+                block: "center",
+              });
+            }
+          });
+
+          function parseTimestamp(timestamp) {
+            const parts = timestamp.split(":");
+            const seconds =
+              parseFloat(parts[0]) * 60 * 60 +
+              parseFloat(parts[1]) * 60 +
+              parseFloat(parts[2]);
+            return seconds;
+          }
+        });
     </script>
-    
-</body>
+  </body>
 </html>
