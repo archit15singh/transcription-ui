@@ -1,0 +1,1506 @@
+{
+	"systeminfo": "AVX = 0 | AVX2 = 0 | AVX512 = 0 | FMA = 0 | NEON = 1 | ARM_FMA = 1 | METAL = 1 | F16C = 0 | FP16_VA = 1 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "whisper.cpp/models/ggml-medium.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": " Marty?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:06,000"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 6000
+			},
+			"text": " Hi, this is the U.S. Army Reservation Department."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,000",
+				"to": "00:00:08,000"
+			},
+			"offsets": {
+				"from": 6000,
+				"to": 8000
+			},
+			"text": " Yes, hello, can you hear me?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,000",
+				"to": "00:00:10,000"
+			},
+			"offsets": {
+				"from": 8000,
+				"to": 10000
+			},
+			"text": " I'm here, yes, I hear you."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,000",
+				"to": "00:00:12,000"
+			},
+			"offsets": {
+				"from": 10000,
+				"to": 12000
+			},
+			"text": " Hi."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,000",
+				"to": "00:00:21,000"
+			},
+			"offsets": {
+				"from": 12000,
+				"to": 21000
+			},
+			"text": " I'm calling regarding Reservation 2196-302, you're speaking to 210, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,000",
+				"to": "00:00:24,000"
+			},
+			"offsets": {
+				"from": 21000,
+				"to": 24000
+			},
+			"text": " Hold on one second before you do that."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,000",
+				"to": "00:00:27,000"
+			},
+			"offsets": {
+				"from": 24000,
+				"to": 27000
+			},
+			"text": " Okay, I'm sorry, go ahead."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,000",
+				"to": "00:00:34,000"
+			},
+			"offsets": {
+				"from": 27000,
+				"to": 34000
+			},
+			"text": " No problem, before we proceed I just want to inform you that the call is being recorded for quality assurance and training purposes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,000",
+				"to": "00:00:36,000"
+			},
+			"offsets": {
+				"from": 34000,
+				"to": 36000
+			},
+			"text": " Sure, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,000",
+				"to": "00:00:44,000"
+			},
+			"offsets": {
+				"from": 36000,
+				"to": 44000
+			},
+			"text": " I understand, Martin, that you are looking for assistance with confirming a reservation?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,000",
+				"to": "00:00:58,000"
+			},
+			"offsets": {
+				"from": 44000,
+				"to": 58000
+			},
+			"text": " No, we're not looking for that anymore because I made very clear that when we - now we realize that we got to the reservation desk more than two hours ago."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,000",
+				"to": "00:01:07,000"
+			},
+			"offsets": {
+				"from": 58000,
+				"to": 67000
+			},
+			"text": " And I got there and they said that they didn't have the reservation in my name and I said, well, we were supposed to get there last night and they didn't have it in last night's name either."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,000",
+				"to": "00:01:14,000"
+			},
+			"offsets": {
+				"from": 67000,
+				"to": 74000
+			},
+			"text": " And they said this isn't the right reservation number for the dollar and then maybe they made the reservation somewhere else."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,000",
+				"to": "00:01:16,000"
+			},
+			"offsets": {
+				"from": 74000,
+				"to": 76000
+			},
+			"text": " And I said, well, no, they shouldn't have."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,000",
+				"to": "00:01:19,000"
+			},
+			"offsets": {
+				"from": 76000,
+				"to": 79000
+			},
+			"text": " It says clearly on my reservation it's for dollars."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,000",
+				"to": "00:01:27,000"
+			},
+			"offsets": {
+				"from": 79000,
+				"to": 87000
+			},
+			"text": " And so she contacted you guys and she was on chat with somebody and I contacted somebody and I was on chat with somebody."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,000",
+				"to": "00:01:36,000"
+			},
+			"offsets": {
+				"from": 87000,
+				"to": 96000
+			},
+			"text": " But when I called your number I kept getting directed to a number that would say put the right pink code in and when I did it it hung up on me."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,000",
+				"to": "00:01:40,000"
+			},
+			"offsets": {
+				"from": 96000,
+				"to": 100000
+			},
+			"text": " And that happened to her and it happened to me three times in a row."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,000",
+				"to": "00:01:48,000"
+			},
+			"offsets": {
+				"from": 100000,
+				"to": 108000
+			},
+			"text": " So I was never able to get from a person to talk to and so what I did was I just said to heck with this and I just went to the car for them directly."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,000",
+				"to": "00:02:03,000"
+			},
+			"offsets": {
+				"from": 108000,
+				"to": 123000
+			},
+			"text": " So I would like to get a refund because it was handled improperly by you guys and most important and most upsetting is I'm supposed to be selling and promoting the fucking service."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,000",
+				"to": "00:02:08,000"
+			},
+			"offsets": {
+				"from": 123000,
+				"to": 128000
+			},
+			"text": " I'm not just a customer. I'm a distributor. I'm a consultant."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,000",
+				"to": "00:02:23,000"
+			},
+			"offsets": {
+				"from": 128000,
+				"to": 143000
+			},
+			"text": " So the fact that I'm having - now I've had multiple good experiences with the guys already so not that I would quit but if I had one of my customers go through the experience I just went through it would be worse than embarrassing."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,000",
+				"to": "00:02:24,000"
+			},
+			"offsets": {
+				"from": 143000,
+				"to": 144000
+			},
+			"text": " It would be humiliating."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:24,000",
+				"to": "00:02:39,000"
+			},
+			"offsets": {
+				"from": 144000,
+				"to": 159000
+			},
+			"text": " So for me to happen to me I can live with it. It was $96 but the idea that somebody would come to a rental counter, expect to have their car, have it all there and realize that you didn't even have the right reservation number."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,000",
+				"to": "00:02:47,000"
+			},
+			"offsets": {
+				"from": 159000,
+				"to": 167000
+			},
+			"text": " And then the fact that I couldn't even get to a customer first person, that's just totally wrong."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,000",
+				"to": "00:02:52,000"
+			},
+			"offsets": {
+				"from": 167000,
+				"to": 172000
+			},
+			"text": " Yeah and I understand. I really apologize for the inconveniences here that caused."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,000",
+				"to": "00:03:00,000"
+			},
+			"offsets": {
+				"from": 172000,
+				"to": 180000
+			},
+			"text": " So to you, Martin, just one quick question. You went to pick up your vehicle today and not yesterday?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,000",
+				"to": "00:03:16,000"
+			},
+			"offsets": {
+				"from": 180000,
+				"to": 196000
+			},
+			"text": " We did because our flight was canceled last night. We got our connection flight in Detroit and the flight - because of weather delays the plane got there at 1.30 in the morning and the pilot couldn't fly anymore so they went to get another crew but they couldn't."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,000",
+				"to": "00:03:25,000"
+			},
+			"offsets": {
+				"from": 196000,
+				"to": 205000
+			},
+			"text": " So they couldn't get a crew until 2.30 this morning so they put us up in a hotel. We left at 2.30 and so we got here to Las Vegas in about 9."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,000",
+				"to": "00:03:34,000"
+			},
+			"offsets": {
+				"from": 205000,
+				"to": 214000
+			},
+			"text": " And did you call the car rental company to inform them of this? So that your reservation is not marked as a no-show?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,000",
+				"to": "00:03:38,000"
+			},
+			"offsets": {
+				"from": 214000,
+				"to": 218000
+			},
+			"text": " It wasn't marked as a no-show. It wasn't marked - there was no reservation in there at all."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,000",
+				"to": "00:03:55,000"
+			},
+			"offsets": {
+				"from": 218000,
+				"to": 235000
+			},
+			"text": " No, I mean if you got there possibly it was marked as no-show and they don't have the reservation on file. That's why I'm asking, did you call them to inform, \"Okay, you know I'm going to be able to pick it up until today because, you know, our flight got delayed so that they don't mark it as no-show and your reservation is not canceled?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,000",
+				"to": "00:03:56,000"
+			},
+			"offsets": {
+				"from": 235000,
+				"to": 236000
+			},
+			"text": " I did."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:56,000",
+				"to": "00:03:58,000"
+			},
+			"offsets": {
+				"from": 236000,
+				"to": 238000
+			},
+			"text": " Who did you speak to?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,000",
+				"to": "00:04:12,000"
+			},
+			"offsets": {
+				"from": 238000,
+				"to": 252000
+			},
+			"text": " I don't know who I spoke to. I didn't get a name. You have to understand, we were in Detroit, Michigan. We were in an airport. We were waiting to find out. We didn't find out that we weren't going to make it until 1.30 in the morning."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,000",
+				"to": "00:04:26,000"
+			},
+			"offsets": {
+				"from": 252000,
+				"to": 266000
+			},
+			"text": " So it was already almost tomorrow there. It was almost midnight here in Las Vegas by the time that happened. So there was no - it was just a call to tell them we weren't coming. I didn't ask who I was talking to. I didn't make it matter."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,000",
+				"to": "00:04:29,000"
+			},
+			"offsets": {
+				"from": 266000,
+				"to": 269000
+			},
+			"text": " And did they tell you that everything was okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,000",
+				"to": "00:04:37,000"
+			},
+			"offsets": {
+				"from": 269000,
+				"to": 277000
+			},
+			"text": " They didn't even - I didn't - they asked me for a reservation number. I told them the reservation number and they said, \"Great, we'll put it on the record.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,000",
+				"to": "00:04:42,000"
+			},
+			"offsets": {
+				"from": 277000,
+				"to": 282000
+			},
+			"text": " You gave them our reservation number and not the one on the confirmation letter?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,000",
+				"to": "00:04:51,000"
+			},
+			"offsets": {
+				"from": 282000,
+				"to": 291000
+			},
+			"text": " The only - there was only one reservation number. 932, whatever it was, 637. I only had one number on the letter on the confirmation letter."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,000",
+				"to": "00:05:04,000"
+			},
+			"offsets": {
+				"from": 291000,
+				"to": 304000
+			},
+			"text": " On the confirmation letter, there is a vendor reference number. That's the number that you use to provide it to the rental company, which is 751492522. That's how they normally locate your reservation."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,000",
+				"to": "00:05:08,000"
+			},
+			"offsets": {
+				"from": 304000,
+				"to": 308000
+			},
+			"text": " The reason I'm asking all of this, Martin, is because in order to -"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:08,000",
+				"to": "00:05:10,000"
+			},
+			"offsets": {
+				"from": 308000,
+				"to": 310000
+			},
+			"text": " Wait, wait, wait. Hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:10,000",
+				"to": "00:05:24,000"
+			},
+			"offsets": {
+				"from": 310000,
+				"to": 324000
+			},
+			"text": " Their vendor number is not - starts with the letter H. That number that you gave me told me that that is not their - they don't have any such number."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,000",
+				"to": "00:05:33,000"
+			},
+			"offsets": {
+				"from": 324000,
+				"to": 333000
+			},
+			"text": " Yeah, the reason I'm asking all this is because what happens is that in order for us to go ahead and request a refund, we need to have all the possibilities that were taken, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,000",
+				"to": "00:05:38,000"
+			},
+			"offsets": {
+				"from": 333000,
+				"to": 338000
+			},
+			"text": " Everything so that we can know whether the car rental company will approve a refund or not."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:38,000",
+				"to": "00:05:46,000"
+			},
+			"offsets": {
+				"from": 338000,
+				"to": 346000
+			},
+			"text": " What I'm going to go ahead and do is I'm going to go ahead and submit the request. Do you have the receipt for the new reservation that you booked?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:46,000",
+				"to": "00:05:47,000"
+			},
+			"offsets": {
+				"from": 346000,
+				"to": 347000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,000",
+				"to": "00:05:50,000"
+			},
+			"offsets": {
+				"from": 347000,
+				"to": 350000
+			},
+			"text": " Can you send it over to me, please? I'm going to give you an email."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,000",
+				"to": "00:05:51,000"
+			},
+			"offsets": {
+				"from": 350000,
+				"to": 351000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:51,000",
+				"to": "00:05:55,000"
+			},
+			"offsets": {
+				"from": 351000,
+				"to": 355000
+			},
+			"text": " Okay. Send it to reservations."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,000",
+				"to": "00:05:58,000"
+			},
+			"offsets": {
+				"from": 355000,
+				"to": 358000
+			},
+			"text": " Hold on, hold on. I have to write - do I need to write this down?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,000",
+				"to": "00:06:02,000"
+			},
+			"offsets": {
+				"from": 358000,
+				"to": 362000
+			},
+			"text": " Yes, sir, because you need to send the receipt to that email."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,000",
+				"to": "00:06:04,000"
+			},
+			"offsets": {
+				"from": 362000,
+				"to": 364000
+			},
+			"text": " Okay, hold on. Let me get a pen."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:04,000",
+				"to": "00:06:05,000"
+			},
+			"offsets": {
+				"from": 364000,
+				"to": 365000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:05,000",
+				"to": "00:06:08,000"
+			},
+			"offsets": {
+				"from": 365000,
+				"to": 368000
+			},
+			"text": " Okay, go ahead. I'm - I'll go with you."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,000",
+				"to": "00:06:10,000"
+			},
+			"offsets": {
+				"from": 368000,
+				"to": 370000
+			},
+			"text": " Reservations, plural."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:10,000",
+				"to": "00:06:13,000"
+			},
+			"offsets": {
+				"from": 370000,
+				"to": 373000
+			},
+			"text": " Reservations, plural, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,000",
+				"to": "00:06:14,000"
+			},
+			"offsets": {
+				"from": 373000,
+				"to": 374000
+			},
+			"text": " At?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:14,000",
+				"to": "00:06:15,000"
+			},
+			"offsets": {
+				"from": 374000,
+				"to": 375000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:15,000",
+				"to": "00:06:17,000"
+			},
+			"offsets": {
+				"from": 375000,
+				"to": 377000
+			},
+			"text": " Vacation owners?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,000",
+				"to": "00:06:18,000"
+			},
+			"offsets": {
+				"from": 377000,
+				"to": 378000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:18,000",
+				"to": "00:06:20,000"
+			},
+			"offsets": {
+				"from": 378000,
+				"to": 380000
+			},
+			"text": " Dot net."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:20,000",
+				"to": "00:06:23,000"
+			},
+			"offsets": {
+				"from": 380000,
+				"to": 383000
+			},
+			"text": " Dot net. Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:23,000",
+				"to": "00:06:29,000"
+			},
+			"offsets": {
+				"from": 383000,
+				"to": 389000
+			},
+			"text": " And then you can go ahead and send it over to me. Please let me know. Can you send it right now?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:29,000",
+				"to": "00:06:36,000"
+			},
+			"offsets": {
+				"from": 389000,
+				"to": 396000
+			},
+			"text": " I'm also - I left the agreement in the car, which wasn't the brightest thing in the world either, but - hold on. Let me get it to my -"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,000",
+				"to": "00:06:37,000"
+			},
+			"offsets": {
+				"from": 396000,
+				"to": 397000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,000",
+				"to": "00:06:39,000"
+			},
+			"offsets": {
+				"from": 397000,
+				"to": 399000
+			},
+			"text": " I might have left it in the car."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,000",
+				"to": "00:06:42,000"
+			},
+			"offsets": {
+				"from": 399000,
+				"to": 402000
+			},
+			"text": " Oh, there it is. Hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,000",
+				"to": "00:06:43,000"
+			},
+			"offsets": {
+				"from": 402000,
+				"to": 403000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:43,000",
+				"to": "00:06:46,000"
+			},
+			"offsets": {
+				"from": 403000,
+				"to": 406000
+			},
+			"text": " Yeah, no, I left it in the car. I have to go back so we can get it."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:46,000",
+				"to": "00:06:48,000"
+			},
+			"offsets": {
+				"from": 406000,
+				"to": 408000
+			},
+			"text": " Wait, hold on, hold on, hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:48,000",
+				"to": "00:06:50,000"
+			},
+			"offsets": {
+				"from": 408000,
+				"to": 410000
+			},
+			"text": " Sure, no problem."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:50,000",
+				"to": "00:06:55,000"
+			},
+			"offsets": {
+				"from": 410000,
+				"to": 415000
+			},
+			"text": " Yep, I did. I left it in the car. So I'll go down and get it. It'll only take a few minutes."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:55,000",
+				"to": "00:06:57,000"
+			},
+			"offsets": {
+				"from": 415000,
+				"to": 417000
+			},
+			"text": " Wait, ma'am, I didn't catch your name."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:57,000",
+				"to": "00:06:58,000"
+			},
+			"offsets": {
+				"from": 417000,
+				"to": 418000
+			},
+			"text": " It's Blanca?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:58,000",
+				"to": "00:06:59,000"
+			},
+			"offsets": {
+				"from": 418000,
+				"to": 419000
+			},
+			"text": " Blanca, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:59,000",
+				"to": "00:07:06,000"
+			},
+			"offsets": {
+				"from": 419000,
+				"to": 426000
+			},
+			"text": " So let me just go ahead and place you on a brief hold. I will reach out to the rental company and I'll be right back with you, okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:06,000",
+				"to": "00:07:10,000"
+			},
+			"offsets": {
+				"from": 426000,
+				"to": 430000
+			},
+			"text": " Sure, but before you do, is it B-L-A-N-C-A or B-L-A-N-K-A?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,000",
+				"to": "00:07:12,000"
+			},
+			"offsets": {
+				"from": 430000,
+				"to": 432000
+			},
+			"text": " C-A."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,000",
+				"to": "00:07:15,000"
+			},
+			"offsets": {
+				"from": 432000,
+				"to": 435000
+			},
+			"text": " B-L-A-N-C-A, okay. Okay. All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,000",
+				"to": "00:07:20,000"
+			},
+			"offsets": {
+				"from": 435000,
+				"to": 440000
+			},
+			"text": " Okay, so just throw it with me one moment on the line, Martin, and I'll be right back with you. Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:20,000",
+				"to": "00:07:22,000"
+			},
+			"offsets": {
+				"from": 440000,
+				"to": 442000
+			},
+			"text": " Okay. Yep."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,000",
+				"to": "00:07:30,000"
+			},
+			"offsets": {
+				"from": 442000,
+				"to": 450000
+			},
+			"text": " Thank you for holding, Martin. I do apologize for the delay. I'm still trying to get through with this rental company, okay? I'm sorry for the delay."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:30,000",
+				"to": "00:07:31,000"
+			},
+			"offsets": {
+				"from": 450000,
+				"to": 451000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,000",
+				"to": "00:07:33,000"
+			},
+			"offsets": {
+				"from": 451000,
+				"to": 453000
+			},
+			"text": " Do you want one moment more, please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,000",
+				"to": "00:07:34,000"
+			},
+			"offsets": {
+				"from": 453000,
+				"to": 454000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:34,000",
+				"to": "00:07:39,000"
+			},
+			"offsets": {
+				"from": 454000,
+				"to": 459000
+			},
+			"text": " Thank you so much. Thank you so much for holding. I do apologize for the long delay."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:39,000",
+				"to": "00:07:42,000"
+			},
+			"offsets": {
+				"from": 459000,
+				"to": 462000
+			},
+			"text": " I'm here, Blanca. It's okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:42,000",
+				"to": "00:07:46,000"
+			},
+			"offsets": {
+				"from": 462000,
+				"to": 466000
+			},
+			"text": " Okay, did you manage to get your receipt?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:46,000",
+				"to": "00:07:52,000"
+			},
+			"offsets": {
+				"from": 466000,
+				"to": 472000
+			},
+			"text": " Okay, if I went to get it, I would have lost you in the elevator, so no, I have to go there and get it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:52,000",
+				"to": "00:08:05,000"
+			},
+			"offsets": {
+				"from": 472000,
+				"to": 485000
+			},
+			"text": " Oh, okay, no problem then. So go ahead and send it over to me. I spoke to Dollar and yes, indeed, they weren't able to find the reservation because apparently it seems as if this was not confirmed at Dollar."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:05,000",
+				"to": "00:08:21,000"
+			},
+			"offsets": {
+				"from": 485000,
+				"to": 501000
+			},
+			"text": " So what we need to do is we need to work on our request for this, but in order for me to submit the refund request, we need to go ahead and have you send us the receipt for the new rental that was made, okay? And that way we can go ahead and have this request."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:21,000",
+				"to": "00:08:41,000"
+			},
+			"offsets": {
+				"from": 501000,
+				"to": 521000
+			},
+			"text": " Well, here's a question of why that doesn't seem necessary. Let me just offer this to you, okay? So what my wife wanted to do is just take an Uber and say we don't need a rental car. So what if we had just said we'll take an Uber and we're not going to get a rental car at all? You wouldn't need the receipt for that in that case, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:41,000",
+				"to": "00:08:44,000"
+			},
+			"offsets": {
+				"from": 521000,
+				"to": 524000
+			},
+			"text": " Yes, I would. A bank statement."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:44,000",
+				"to": "00:08:46,000"
+			},
+			"offsets": {
+				"from": 524000,
+				"to": 526000
+			},
+			"text": " A bank statement?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,000",
+				"to": "00:08:49,000"
+			},
+			"offsets": {
+				"from": 526000,
+				"to": 529000
+			},
+			"text": " Yes, where it reflects the charge for the Uber."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:49,000",
+				"to": "00:08:55,000"
+			},
+			"offsets": {
+				"from": 529000,
+				"to": 535000
+			},
+			"text": " Okay, all right. Okay, fair enough. So you asked for my question. Thank you for that."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:55,000",
+				"to": "00:09:01,000"
+			},
+			"offsets": {
+				"from": 535000,
+				"to": 541000
+			},
+			"text": " Let me see what happens. Okay, let me see what happens, Martin. Sorry about that. Go ahead."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:01,000",
+				"to": "00:09:04,000"
+			},
+			"offsets": {
+				"from": 541000,
+				"to": 544000
+			},
+			"text": " No, go ahead and tell me what happens."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:04,000",
+				"to": "00:09:20,000"
+			},
+			"offsets": {
+				"from": 544000,
+				"to": 560000
+			},
+			"text": " So what happens is that you have to, you know, we are a third party company, right? So we go through our suppliers. So in order for us to request something from the suppliers, they will always, trust me, they will always ask for backup."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:20,000",
+				"to": "00:09:21,000"
+			},
+			"offsets": {
+				"from": 560000,
+				"to": 561000
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:21,000",
+				"to": "00:09:45,000"
+			},
+			"offsets": {
+				"from": 561000,
+				"to": 585000
+			},
+			"text": " You know, for us to give them backup, for them to, you know, be able to work with whatever requests we are asking for. That's why I'm asking you for a receipt so that in the longer run if I submit the request afterwards, you know, they're not going to ask me for that again, you know, and I will be able to give them that because, you know, I don't have it. So that's why I'm asking you to send it over."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,000",
+				"to": "00:09:52,000"
+			},
+			"offsets": {
+				"from": 585000,
+				"to": 592000
+			},
+			"text": " Yep. You know, as soon as possible. That way, the better, the quicker we get it, the better because we can start working on this."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:52,000",
+				"to": "00:10:01,000"
+			},
+			"offsets": {
+				"from": 592000,
+				"to": 601000
+			},
+			"text": " Yeah, and really the faster I'll be able to get the spoons. So we're both, we agree on this. So here's the question. Which part of the agreement do you need? It's multiple pages."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:01,000",
+				"to": "00:10:05,000"
+			},
+			"offsets": {
+				"from": 601000,
+				"to": 605000
+			},
+			"text": " The one where you just made the reservation basically and how much you paid."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:05,000",
+				"to": "00:10:08,000"
+			},
+			"offsets": {
+				"from": 605000,
+				"to": 608000
+			},
+			"text": " Okay, that's fair enough. Okay, good."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:08,000",
+				"to": "00:10:10,000"
+			},
+			"offsets": {
+				"from": 608000,
+				"to": 610000
+			},
+			"text": " Okay, great."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:10,000",
+				"to": "00:10:13,000"
+			},
+			"offsets": {
+				"from": 610000,
+				"to": 613000
+			},
+			"text": " Thank you Blanca. I appreciate your help very much."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:13,000",
+				"to": "00:10:22,000"
+			},
+			"offsets": {
+				"from": 613000,
+				"to": 622000
+			},
+			"text": " No problem about that Martin. The request will be submitted. Okay, at the moment, I cannot go ahead and guarantee you anything because you know we still have to go through the supplier."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:22,000",
+				"to": "00:10:30,000"
+			},
+			"offsets": {
+				"from": 622000,
+				"to": 630000
+			},
+			"text": " But the request is there so I mean we definitely will go ahead and work on it and as soon as we get an update, you will be notified. Okay, Martin?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:30,000",
+				"to": "00:10:46,000"
+			},
+			"offsets": {
+				"from": 630000,
+				"to": 646000
+			},
+			"text": " Yeah, so here's another, we've gone through this and we're good. We all agree on this stuff. You guys need to work on your portal because like I said, if I was in front of the customer agency and she had other people online waiting for her,"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:46,000",
+				"to": "00:10:59,000"
+			},
+			"offsets": {
+				"from": 646000,
+				"to": 659000
+			},
+			"text": " and I couldn't get through to you at all because I followed your path through the number, you know, through the trade and when it said if you want to talk to somebody about an existing reservation, press 2."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:59,000",
+				"to": "00:11:01,000"
+			},
+			"offsets": {
+				"from": 659000,
+				"to": 661000
+			},
+			"text": " Well, when I pressed 2, it hung up on me."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:01,000",
+				"to": "00:11:03,000"
+			},
+			"offsets": {
+				"from": 661000,
+				"to": 663000
+			},
+			"text": " What time was it?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:03,000",
+				"to": "00:11:08,000"
+			},
+			"offsets": {
+				"from": 663000,
+				"to": 668000
+			},
+			"text": " No, it wasn't just once. It happened to me twice. It happened to her once."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:08,000",
+				"to": "00:11:10,000"
+			},
+			"offsets": {
+				"from": 668000,
+				"to": 670000
+			},
+			"text": " At what time do you know?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:10,000",
+				"to": "00:11:16,000"
+			},
+			"offsets": {
+				"from": 670000,
+				"to": 676000
+			},
+			"text": " Time? Yeah, I can tell you what's true. It happened at 9.15, it happened at 9.30, it happened at a quarter to ten."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:16,000",
+				"to": "00:11:18,000"
+			},
+			"offsets": {
+				"from": 676000,
+				"to": 678000
+			},
+			"text": " Sorry, what time was that?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,000",
+				"to": "00:11:30,000"
+			},
+			"offsets": {
+				"from": 678000,
+				"to": 690000
+			},
+			"text": " Well, you need the exact time it happened. It happened every time I did it. When we were two online, we first got there, it was around quarter to ten."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:30,000",
+				"to": "00:11:31,000"
+			},
+			"offsets": {
+				"from": 690000,
+				"to": 691000
+			},
+			"text": " Oh, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:31,000",
+				"to": "00:11:42,000"
+			},
+			"offsets": {
+				"from": 691000,
+				"to": 702000
+			},
+			"text": " It was 9.45 Pacific time and then 10 o'clock Pacific time and it happened to her, it happened to her first and then it happened to me twice."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,000",
+				"to": "00:11:52,000"
+			},
+			"offsets": {
+				"from": 702000,
+				"to": 712000
+			},
+			"text": " So, I mean, I can't give you the exact time, but obviously it was around those times. If I did it right now, I can guarantee you the same thing would happen. I would have recorded for you."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:52,000",
+				"to": "00:12:03,000"
+			},
+			"offsets": {
+				"from": 712000,
+				"to": 723000
+			},
+			"text": " Yeah. So, I'm asking because it could have possibly been when our office was still closed, but I mean if it was during that time, it was like what, 11 hour time?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:03,000",
+				"to": "00:12:08,000"
+			},
+			"offsets": {
+				"from": 723000,
+				"to": 728000
+			},
+			"text": " And we are available from 9 a.m. Eastern Standard Time."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:08,000",
+				"to": "00:12:11,000"
+			},
+			"offsets": {
+				"from": 728000,
+				"to": 731000
+			},
+			"text": " Yeah, so that would have been..."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:11,000",
+				"to": "00:12:20,000"
+			},
+			"offsets": {
+				"from": 731000,
+				"to": 740000
+			},
+			"text": " This would have been the time that you were open in that case. So, your Eastern Time, there's no question you would be there. So, that wouldn't have been the issue."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:20,000",
+				"to": "00:12:34,000"
+			},
+			"offsets": {
+				"from": 740000,
+				"to": 754000
+			},
+			"text": " Exactly. Exactly, because we open at 9 a.m. Eastern Standard Time. So, I mean, if you called 10 Pacific, I mean, yeah, we would definitely should have answered. I'm not sure what happened there."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,000",
+				"to": "00:12:50,000"
+			},
+			"offsets": {
+				"from": 754000,
+				"to": 770000
+			},
+			"text": " Yeah, and again, I'm giving you this as a customer service tool because I'm not just a customer. I'm a consultant. I'm expecting to give other people the go-ahead to use your service."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:50,000",
+				"to": "00:12:55,000"
+			},
+			"offsets": {
+				"from": 770000,
+				"to": 775000
+			},
+			"text": " And I would hate for anybody that I'd like to have to go through what I went through today."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:55,000",
+				"to": "00:13:02,000"
+			},
+			"offsets": {
+				"from": 775000,
+				"to": 782000
+			},
+			"text": " Yeah, yeah, I couldn't. I understand there, Martin. And I apologize, you know."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:02,000",
+				"to": "00:13:04,000"
+			},
+			"offsets": {
+				"from": 782000,
+				"to": 784000
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:04,000",
+				"to": "00:13:17,980"
+			},
+			"offsets": {
+				"from": 784000,
+				"to": 797980
+			},
+			"text": " [ Silence ]"
+		}
+	]
+}

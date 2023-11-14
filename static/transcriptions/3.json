@@ -1,0 +1,3002 @@
+{
+	"systeminfo": "AVX = 0 | AVX2 = 0 | AVX512 = 0 | FMA = 0 | NEON = 1 | ARM_FMA = 1 | METAL = 1 | F16C = 0 | FP16_VA = 1 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "whisper.cpp/models/ggml-medium.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,200"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4200
+			},
+			"text": " Thank you for calling the Concierge Department, my name is Felice, would I have the pleasure of speaking with you today?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,200",
+				"to": "00:00:06,200"
+			},
+			"offsets": {
+				"from": 4200,
+				"to": 6200
+			},
+			"text": " Yes, hi, this is-"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,200",
+				"to": "00:00:08,800"
+			},
+			"offsets": {
+				"from": 6200,
+				"to": 8800
+			},
+			"text": " Hi, I'm Marlon."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,800",
+				"to": "00:00:13,300"
+			},
+			"offsets": {
+				"from": 8800,
+				"to": 13300
+			},
+			"text": " Is your calling from- is that the number associated with your account?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,300",
+				"to": "00:00:14,600"
+			},
+			"offsets": {
+				"from": 13300,
+				"to": 14600
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,600",
+				"to": "00:00:18,000"
+			},
+			"offsets": {
+				"from": 14600,
+				"to": 18000
+			},
+			"text": " Okay, one moment for me to pull up an account with that Mr. Armando."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,000",
+				"to": "00:00:19,100"
+			},
+			"offsets": {
+				"from": 18000,
+				"to": 19100
+			},
+			"text": " Mr. Armando."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,100",
+				"to": "00:00:19,600"
+			},
+			"offsets": {
+				"from": 19100,
+				"to": 19600
+			},
+			"text": " Alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,600",
+				"to": "00:00:23,600"
+			},
+			"offsets": {
+				"from": 19600,
+				"to": 23600
+			},
+			"text": " Okay, well thank you so much Mr. Armando for being a member of World Discovery Pacific."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,600",
+				"to": "00:00:26,100"
+			},
+			"offsets": {
+				"from": 23600,
+				"to": 26100
+			},
+			"text": " How may I forward this as your travel needs today?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,400",
+				"to": "00:00:36,600"
+			},
+			"offsets": {
+				"from": 27400,
+				"to": 36600
+			},
+			"text": " Alright, I'm just calling, I'm trying to rent a car, I'm going to Cabo tomorrow, Cabo San Luis, Cabo, actually, Tanjos de la Cabo."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,600",
+				"to": "00:00:37,900"
+			},
+			"offsets": {
+				"from": 36600,
+				"to": 37900
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,900",
+				"to": "00:00:42,100"
+			},
+			"offsets": {
+				"from": 37900,
+				"to": 42100
+			},
+			"text": " And I'm trying to rent a car once I guess they're from the airport."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,100",
+				"to": "00:00:43,700"
+			},
+			"offsets": {
+				"from": 42100,
+				"to": 43700
+			},
+			"text": " El Cabo."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,700",
+				"to": "00:00:45,200"
+			},
+			"offsets": {
+				"from": 43700,
+				"to": 45200
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,200",
+				"to": "00:00:50,800"
+			},
+			"offsets": {
+				"from": 45200,
+				"to": 50800
+			},
+			"text": " Is that a possibility or do I have to go go to a rental place over there?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,800",
+				"to": "00:00:54,400"
+			},
+			"offsets": {
+				"from": 50800,
+				"to": 54400
+			},
+			"text": " Well we can see what we have available at this time."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,400",
+				"to": "00:00:56,300"
+			},
+			"offsets": {
+				"from": 54400,
+				"to": 56300
+			},
+			"text": " Alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,300",
+				"to": "00:00:56,800"
+			},
+			"offsets": {
+				"from": 56300,
+				"to": 56800
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,800",
+				"to": "00:01:13,800"
+			},
+			"offsets": {
+				"from": 56800,
+				"to": 73800
+			},
+			"text": " Does Cabo in the national airport?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,800",
+				"to": "00:01:18,500"
+			},
+			"offsets": {
+				"from": 73800,
+				"to": 78500
+			},
+			"text": " I think, yeah, that's a good thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,500",
+				"to": "00:01:19,000"
+			},
+			"offsets": {
+				"from": 78500,
+				"to": 79000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,000",
+				"to": "00:01:31,800"
+			},
+			"offsets": {
+				"from": 79000,
+				"to": 91800
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,800",
+				"to": "00:01:35,000"
+			},
+			"offsets": {
+				"from": 91800,
+				"to": 95000
+			},
+			"text": " Could I- I'm going to have a pick up date please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,000",
+				"to": "00:01:38,100"
+			},
+			"offsets": {
+				"from": 95000,
+				"to": 98100
+			},
+			"text": " Pick up date is tomorrow."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,100",
+				"to": "00:01:41,000"
+			},
+			"offsets": {
+				"from": 98100,
+				"to": 101000
+			},
+			"text": " Could I have a drop off date please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,000",
+				"to": "00:01:44,700"
+			},
+			"offsets": {
+				"from": 101000,
+				"to": 104700
+			},
+			"text": " Drop off date is Sunday."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,700",
+				"to": "00:01:46,600"
+			},
+			"offsets": {
+				"from": 104700,
+				"to": 106600
+			},
+			"text": " The 26th."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,600",
+				"to": "00:01:47,100"
+			},
+			"offsets": {
+				"from": 106600,
+				"to": 107100
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,100",
+				"to": "00:01:53,400"
+			},
+			"offsets": {
+				"from": 107100,
+				"to": 113400
+			},
+			"text": " Could I have a drop- could I have a pick up time please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,400",
+				"to": "00:02:03,200"
+			},
+			"offsets": {
+				"from": 113400,
+				"to": 123200
+			},
+			"text": " Umm, hold on, I believe I'm arriving at noon so I'll follow."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,200",
+				"to": "00:02:07,400"
+			},
+			"offsets": {
+				"from": 123200,
+				"to": 127400
+			},
+			"text": " Yes, I'm right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,400",
+				"to": "00:02:08,600"
+			},
+			"offsets": {
+				"from": 127400,
+				"to": 128600
+			},
+			"text": " Yes, I'm right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,600",
+				"to": "00:02:11,000"
+			},
+			"offsets": {
+				"from": 128600,
+				"to": 131000
+			},
+			"text": " Could I have a drop off time please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,000",
+				"to": "00:02:13,900"
+			},
+			"offsets": {
+				"from": 131000,
+				"to": 133900
+			},
+			"text": " Drop off time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,900",
+				"to": "00:02:14,400"
+			},
+			"offsets": {
+				"from": 133900,
+				"to": 134400
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:14,400",
+				"to": "00:02:20,900"
+			},
+			"offsets": {
+				"from": 134400,
+				"to": 140900
+			},
+			"text": " Mm-hmm."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,900",
+				"to": "00:02:22,500"
+			},
+			"offsets": {
+				"from": 140900,
+				"to": 142500
+			},
+			"text": " Did you decide what drop off time?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,500",
+				"to": "00:02:26,600"
+			},
+			"offsets": {
+				"from": 142500,
+				"to": 146600
+			},
+			"text": " I'm looking to see what my flight time is."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,600",
+				"to": "00:02:28,000"
+			},
+			"offsets": {
+				"from": 146600,
+				"to": 148000
+			},
+			"text": " Okay, we'll take your time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:28,000",
+				"to": "00:02:28,600"
+			},
+			"offsets": {
+				"from": 148000,
+				"to": 148600
+			},
+			"text": " I'm right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:28,600",
+				"to": "00:02:31,100"
+			},
+			"offsets": {
+				"from": 148600,
+				"to": 151100
+			},
+			"text": " Alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:31,100",
+				"to": "00:02:43,600"
+			},
+			"offsets": {
+				"from": 151100,
+				"to": 163600
+			},
+			"text": " Okay, probably around 1 p.m."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,100",
+				"to": "00:02:45,300"
+			},
+			"offsets": {
+				"from": 164100,
+				"to": 165300
+			},
+			"text": " Okay, 1 p.m."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,300",
+				"to": "00:02:46,700"
+			},
+			"offsets": {
+				"from": 165300,
+				"to": 166700
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,700",
+				"to": "00:02:53,300"
+			},
+			"offsets": {
+				"from": 166700,
+				"to": 173300
+			},
+			"text": " Okay, let me see what we have available for that time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,300",
+				"to": "00:02:59,200"
+			},
+			"offsets": {
+				"from": 173300,
+				"to": 179200
+			},
+			"text": " Oh, and umm, it was 1 p.m. for picking it up also, am I correct?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:59,200",
+				"to": "00:03:01,600"
+			},
+			"offsets": {
+				"from": 179200,
+				"to": 181600
+			},
+			"text": " Yes, 12.30 to 1."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,600",
+				"to": "00:03:02,600"
+			},
+			"offsets": {
+				"from": 181600,
+				"to": 182600
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,600",
+				"to": "00:03:06,600"
+			},
+			"offsets": {
+				"from": 182600,
+				"to": 186600
+			},
+			"text": " Okay, so..."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,200",
+				"to": "00:03:13,700"
+			},
+			"offsets": {
+				"from": 191200,
+				"to": 193700
+			},
+			"text": " Will you be dropping it off at the same location?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,700",
+				"to": "00:03:16,000"
+			},
+			"offsets": {
+				"from": 193700,
+				"to": 196000
+			},
+			"text": " Yes, right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,000",
+				"to": "00:03:19,500"
+			},
+			"offsets": {
+				"from": 196000,
+				"to": 199500
+			},
+			"text": " So that's the 21st to the 25th?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,500",
+				"to": "00:03:24,300"
+			},
+			"offsets": {
+				"from": 199500,
+				"to": 204300
+			},
+			"text": " Umm, I'm just going to- hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:24,300",
+				"to": "00:03:32,800"
+			},
+			"offsets": {
+				"from": 204300,
+				"to": 212800
+			},
+			"text": " Yeah, dropping off on the 26th."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:32,800",
+				"to": "00:03:34,700"
+			},
+			"offsets": {
+				"from": 212800,
+				"to": 214700
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,700",
+				"to": "00:03:35,200"
+			},
+			"offsets": {
+				"from": 214700,
+				"to": 215200
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:35,200",
+				"to": "00:03:46,000"
+			},
+			"offsets": {
+				"from": 215200,
+				"to": 226000
+			},
+			"text": " Okay, umm, just to clarify something, could I please take a brief hold?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,000",
+				"to": "00:03:47,700"
+			},
+			"offsets": {
+				"from": 226000,
+				"to": 227700
+			},
+			"text": " Let me just confirm something, please."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:47,700",
+				"to": "00:03:49,200"
+			},
+			"offsets": {
+				"from": 227700,
+				"to": 229200
+			},
+			"text": " Sure, go ahead."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,200",
+				"to": "00:03:50,300"
+			},
+			"offsets": {
+				"from": 229200,
+				"to": 230300
+			},
+			"text": " Okay, you're welcome."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,300",
+				"to": "00:04:09,300"
+			},
+			"offsets": {
+				"from": 230300,
+				"to": 249300
+			},
+			"text": " [Background noise]"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,300",
+				"to": "00:04:11,300"
+			},
+			"offsets": {
+				"from": 249300,
+				"to": 251300
+			},
+			"text": " Are you in the call? I got you in the call."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,300",
+				"to": "00:04:13,300"
+			},
+			"offsets": {
+				"from": 251300,
+				"to": 253300
+			},
+			"text": " Yes, hello."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:13,300",
+				"to": "00:04:18,300"
+			},
+			"offsets": {
+				"from": 253300,
+				"to": 258300
+			},
+			"text": " I'm still here trying to confirm something about this, I know, but umm, just give me a moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,300",
+				"to": "00:04:19,800"
+			},
+			"offsets": {
+				"from": 258300,
+				"to": 259800
+			},
+			"text": " Could I please run a brief hold, please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,600",
+				"to": "00:04:21,800"
+			},
+			"offsets": {
+				"from": 260600,
+				"to": 261800
+			},
+			"text": " Yes, yes, go ahead."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,800",
+				"to": "00:04:23,600"
+			},
+			"offsets": {
+				"from": 261800,
+				"to": 263600
+			},
+			"text": " Okay, thank you so much."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:23,600",
+				"to": "00:04:28,900"
+			},
+			"offsets": {
+				"from": 263600,
+				"to": 268900
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,900",
+				"to": "00:04:30,400"
+			},
+			"offsets": {
+				"from": 268900,
+				"to": 270400
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:30,400",
+				"to": "00:04:32,800"
+			},
+			"offsets": {
+				"from": 270400,
+				"to": 272800
+			},
+			"text": " Hi."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,800",
+				"to": "00:04:35,600"
+			},
+			"offsets": {
+				"from": 272800,
+				"to": 275600
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:35,600",
+				"to": "00:04:38,800"
+			},
+			"offsets": {
+				"from": 275600,
+				"to": 278800
+			},
+			"text": " Yes, umm, yes, I'm still looking into the prices on this here."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:38,800",
+				"to": "00:04:40,700"
+			},
+			"offsets": {
+				"from": 278800,
+				"to": 280700
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,700",
+				"to": "00:04:42,500"
+			},
+			"offsets": {
+				"from": 280700,
+				"to": 282500
+			},
+			"text": " Yes, I'm looking."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,500",
+				"to": "00:04:45,300"
+			},
+			"offsets": {
+				"from": 282500,
+				"to": 285300
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,300",
+				"to": "00:04:46,000"
+			},
+			"offsets": {
+				"from": 285300,
+				"to": 286000
+			},
+			"text": " Yes, I'm right here."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:46,000",
+				"to": "00:04:52,000"
+			},
+			"offsets": {
+				"from": 286000,
+				"to": 292000
+			},
+			"text": " Yes, I'm still looking into the prices here because, yes, they're changing and changing at the moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:52,000",
+				"to": "00:04:53,700"
+			},
+			"offsets": {
+				"from": 292000,
+				"to": 293700
+			},
+			"text": " Just please give me a moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:53,700",
+				"to": "00:04:58,000"
+			},
+			"offsets": {
+				"from": 293700,
+				"to": 298000
+			},
+			"text": " I'm so sorry I'm taking a long while for this, but I have to look into this."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,000",
+				"to": "00:05:00,000"
+			},
+			"offsets": {
+				"from": 298000,
+				"to": 300000
+			},
+			"text": " It's okay, I'm not moving."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,000",
+				"to": "00:05:02,300"
+			},
+			"offsets": {
+				"from": 300000,
+				"to": 302300
+			},
+			"text": " I'm still just confirming something here."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:02,300",
+				"to": "00:05:04,000"
+			},
+			"offsets": {
+				"from": 302300,
+				"to": 304000
+			},
+			"text": " Alright, no problem."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,000",
+				"to": "00:05:05,500"
+			},
+			"offsets": {
+				"from": 304000,
+				"to": 305500
+			},
+			"text": " Okay, thank you so much."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:05,500",
+				"to": "00:05:07,000"
+			},
+			"offsets": {
+				"from": 305500,
+				"to": 307000
+			},
+			"text": " Okay, I'm going."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:07,000",
+				"to": "00:05:08,000"
+			},
+			"offsets": {
+				"from": 307000,
+				"to": 308000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:15,500",
+				"to": "00:05:20,000"
+			},
+			"offsets": {
+				"from": 315500,
+				"to": 320000
+			},
+			"text": " Okay, so we already confirmed why the prices have been like this."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,000",
+				"to": "00:05:21,500"
+			},
+			"offsets": {
+				"from": 320000,
+				"to": 321500
+			},
+			"text": " One moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,500",
+				"to": "00:05:30,300"
+			},
+			"offsets": {
+				"from": 321500,
+				"to": 330300
+			},
+			"text": " Okay, so that is Los Cabos International Airport from the 21st at 1pm to the 25th at 1pm also."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:30,300",
+				"to": "00:05:34,700"
+			},
+			"offsets": {
+				"from": 330300,
+				"to": 334700
+			},
+			"text": " We have an intermediate car, a full-size car."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:34,700",
+				"to": "00:05:37,700"
+			},
+			"offsets": {
+				"from": 334700,
+				"to": 337700
+			},
+			"text": " We have a standard car, the compact."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,700",
+				"to": "00:05:40,000"
+			},
+			"offsets": {
+				"from": 337700,
+				"to": 340000
+			},
+			"text": " I'm just naming the type of car as the economy."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:40,000",
+				"to": "00:05:42,300"
+			},
+			"offsets": {
+				"from": 340000,
+				"to": 342300
+			},
+			"text": " There's also the premium car."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:43,500",
+				"to": "00:05:46,200"
+			},
+			"offsets": {
+				"from": 343500,
+				"to": 346200
+			},
+			"text": " There's economy sports utility vehicle."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:46,200",
+				"to": "00:05:48,000"
+			},
+			"offsets": {
+				"from": 346200,
+				"to": 348000
+			},
+			"text": " That's kind of big."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:48,000",
+				"to": "00:05:50,800"
+			},
+			"offsets": {
+				"from": 348000,
+				"to": 350800
+			},
+			"text": " And then there's a standard sports utility vehicle."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,800",
+				"to": "00:05:51,900"
+			},
+			"offsets": {
+				"from": 350800,
+				"to": 351900
+			},
+			"text": " That's a red one."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:51,900",
+				"to": "00:05:54,900"
+			},
+			"offsets": {
+				"from": 351900,
+				"to": 354900
+			},
+			"text": " Okay, let me ask you what kind of car I'm looking for."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,900",
+				"to": "00:05:56,200"
+			},
+			"offsets": {
+				"from": 354900,
+				"to": 356200
+			},
+			"text": " Maybe you need to be in here."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,200",
+				"to": "00:05:57,600"
+			},
+			"offsets": {
+				"from": 356200,
+				"to": 357600
+			},
+			"text": " Mm-hmm."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:57,600",
+				"to": "00:05:58,900"
+			},
+			"offsets": {
+				"from": 357600,
+				"to": 358900
+			},
+			"text": " Is there, is there any way?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:58,900",
+				"to": "00:06:00,900"
+			},
+			"offsets": {
+				"from": 358900,
+				"to": 360900
+			},
+			"text": " Can you hear me?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:00,900",
+				"to": "00:06:02,500"
+			},
+			"offsets": {
+				"from": 360900,
+				"to": 362500
+			},
+			"text": " Yes, I could hear you."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,500",
+				"to": "00:06:07,900"
+			},
+			"offsets": {
+				"from": 362500,
+				"to": 367900
+			},
+			"text": " Yes, is there any way if you can check for a Jeep Wrangler or Jeep Sahara?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:07,900",
+				"to": "00:06:09,200"
+			},
+			"offsets": {
+				"from": 367900,
+				"to": 369200
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:09,200",
+				"to": "00:06:11,900"
+			},
+			"offsets": {
+				"from": 369200,
+				"to": 371900
+			},
+			"text": " Okay, let me see if we have any Jeeps available."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,900",
+				"to": "00:06:13,200"
+			},
+			"offsets": {
+				"from": 372900,
+				"to": 373200
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,200",
+				"to": "00:06:17,900"
+			},
+			"offsets": {
+				"from": 373200,
+				"to": 377900
+			},
+			"text": " When I checked the website, they were awesome."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,900",
+				"to": "00:06:19,500"
+			},
+			"offsets": {
+				"from": 377900,
+				"to": 379500
+			},
+			"text": " I'm not sure if there's any."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:19,500",
+				"to": "00:06:25,900"
+			},
+			"offsets": {
+				"from": 379500,
+				"to": 385900
+			},
+			"text": " No, we don't have any Jeeps available at the moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,900",
+				"to": "00:06:28,900"
+			},
+			"offsets": {
+				"from": 385900,
+				"to": 388900
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,900",
+				"to": "00:06:30,200"
+			},
+			"offsets": {
+				"from": 388900,
+				"to": 390200
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:30,200",
+				"to": "00:06:36,000"
+			},
+			"offsets": {
+				"from": 390200,
+				"to": 396000
+			},
+			"text": " Okay, so is there any other mid-size that you need?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,000",
+				"to": "00:06:37,500"
+			},
+			"offsets": {
+				"from": 396000,
+				"to": 397500
+			},
+			"text": " Like the other RAV4?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,500",
+				"to": "00:06:39,300"
+			},
+			"offsets": {
+				"from": 397500,
+				"to": 399300
+			},
+			"text": " Okay, let me see."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,300",
+				"to": "00:06:39,800"
+			},
+			"offsets": {
+				"from": 399300,
+				"to": 399800
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:39,800",
+				"to": "00:06:49,100"
+			},
+			"offsets": {
+				"from": 399800,
+				"to": 409100
+			},
+			"text": " Well, there is this economy SUV."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,100",
+				"to": "00:06:52,800"
+			},
+			"offsets": {
+				"from": 409100,
+				"to": 412800
+			},
+			"text": " Okay, which is how much?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,800",
+				"to": "00:06:59,800"
+			},
+			"offsets": {
+				"from": 412800,
+				"to": 419800
+			},
+			"text": " There's the Jeep range and that is $77 a day."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:59,800",
+				"to": "00:07:04,000"
+			},
+			"offsets": {
+				"from": 419800,
+				"to": 424000
+			},
+			"text": " All right, anything cheaper?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:04,000",
+				"to": "00:07:07,300"
+			},
+			"offsets": {
+				"from": 424000,
+				"to": 427300
+			},
+			"text": " Yes, we do have cheaper."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,900",
+				"to": "00:07:19,700"
+			},
+			"offsets": {
+				"from": 427900,
+				"to": 439700
+			},
+			"text": " Then there's the, there's the one moment, the rental capture that is $14 a day, which gives you a total of $56."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:19,700",
+				"to": "00:07:22,200"
+			},
+			"offsets": {
+				"from": 439700,
+				"to": 442200
+			},
+			"text": " What car is that?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,200",
+				"to": "00:07:26,900"
+			},
+			"offsets": {
+				"from": 442200,
+				"to": 446900
+			},
+			"text": " That is, it's an economy SUV also."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:26,900",
+				"to": "00:07:32,300"
+			},
+			"offsets": {
+				"from": 446900,
+				"to": 452300
+			},
+			"text": " But that's a budget and it's $14 a day, which gives you a total of $56."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:32,300",
+				"to": "00:07:37,600"
+			},
+			"offsets": {
+				"from": 452300,
+				"to": 457600
+			},
+			"text": " I want you to know that this price does not include taxes made by the car rental."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:37,600",
+				"to": "00:07:43,200"
+			},
+			"offsets": {
+				"from": 457600,
+				"to": 463200
+			},
+			"text": " How much are the taxes, you know, or am I going to find out what was there?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,200",
+				"to": "00:07:51,800"
+			},
+			"offsets": {
+				"from": 463200,
+				"to": 471800
+			},
+			"text": " Well, I could, they do have additional taxes such as, I can name you some of them, but we don't have all of them that are usually with the car rental."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:51,800",
+				"to": "00:07:53,300"
+			},
+			"offsets": {
+				"from": 471800,
+				"to": 473300
+			},
+			"text": " But what I could do is,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:53,300",
+				"to": "00:07:54,800"
+			},
+			"offsets": {
+				"from": 473300,
+				"to": 474800
+			},
+			"text": " But do you know how much what Seattle is?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:54,800",
+				"to": "00:08:01,800"
+			},
+			"offsets": {
+				"from": 474800,
+				"to": 481800
+			},
+			"text": " No, but what I can do is I could call a car rental and I could check with all things they have, if that's okay with you."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:01,800",
+				"to": "00:08:04,700"
+			},
+			"offsets": {
+				"from": 481800,
+				"to": 484700
+			},
+			"text": " Okay, so what kind of car is this again?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:05,500",
+				"to": "00:08:08,100"
+			},
+			"offsets": {
+				"from": 485500,
+				"to": 488100
+			},
+			"text": " This is a economy for utility vehicle."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:08,100",
+				"to": "00:08:11,400"
+			},
+			"offsets": {
+				"from": 488100,
+				"to": 491400
+			},
+			"text": " Okay, but what, what brand of car is it?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:11,400",
+				"to": "00:08:13,600"
+			},
+			"offsets": {
+				"from": 491400,
+				"to": 493600
+			},
+			"text": " Let me get it here."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:13,600",
+				"to": "00:08:17,000"
+			},
+			"offsets": {
+				"from": 493600,
+				"to": 497000
+			},
+			"text": " It's a renewal capture."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:17,000",
+				"to": "00:08:19,000"
+			},
+			"offsets": {
+				"from": 497000,
+				"to": 499000
+			},
+			"text": " A what?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:19,000",
+				"to": "00:08:21,700"
+			},
+			"offsets": {
+				"from": 499000,
+				"to": 501700
+			},
+			"text": " A renewal capture."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:21,700",
+				"to": "00:08:25,600"
+			},
+			"offsets": {
+				"from": 501700,
+				"to": 505600
+			},
+			"text": " Okay, so again,"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:25,600",
+				"to": "00:08:33,200"
+			},
+			"offsets": {
+				"from": 505600,
+				"to": 513200
+			},
+			"text": " What's the brand of the, it's a Chrysler?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:33,200",
+				"to": "00:08:34,200"
+			},
+			"offsets": {
+				"from": 513200,
+				"to": 514200
+			},
+			"text": " No."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:34,200",
+				"to": "00:08:36,300"
+			},
+			"offsets": {
+				"from": 514200,
+				"to": 516300
+			},
+			"text": " Um, no."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:36,300",
+				"to": "00:08:39,400"
+			},
+			"offsets": {
+				"from": 516300,
+				"to": 519400
+			},
+			"text": " Okay, let me throw it out because maybe you're not understanding me."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:39,400",
+				"to": "00:08:43,700"
+			},
+			"offsets": {
+				"from": 519400,
+				"to": 523700
+			},
+			"text": " It's R E N A U L T."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:43,700",
+				"to": "00:08:47,700"
+			},
+			"offsets": {
+				"from": 523700,
+				"to": 527700
+			},
+			"text": " Then another word, C A P T U R."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:47,700",
+				"to": "00:08:51,600"
+			},
+			"offsets": {
+				"from": 527700,
+				"to": 531600
+			},
+			"text": " What was the second one?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:51,600",
+				"to": "00:08:56,100"
+			},
+			"offsets": {
+				"from": 531600,
+				"to": 536100
+			},
+			"text": " C A P T U R."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:56,100",
+				"to": "00:08:57,600"
+			},
+			"offsets": {
+				"from": 536100,
+				"to": 537600
+			},
+			"text": " Catch it."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:57,600",
+				"to": "00:09:00,500"
+			},
+			"offsets": {
+				"from": 537600,
+				"to": 540500
+			},
+			"text": " Oh, it's a renewal."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:00,500",
+				"to": "00:09:02,500"
+			},
+			"offsets": {
+				"from": 540500,
+				"to": 542500
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,400",
+				"to": "00:09:03,900"
+			},
+			"offsets": {
+				"from": 543400,
+				"to": 543900
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,900",
+				"to": "00:09:14,600"
+			},
+			"offsets": {
+				"from": 543900,
+				"to": 554600
+			},
+			"text": " So, what I could do is I could call the car company and I could ask them what all fees they do include in that."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:14,600",
+				"to": "00:09:16,800"
+			},
+			"offsets": {
+				"from": 554600,
+				"to": 556800
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:16,800",
+				"to": "00:09:18,100"
+			},
+			"offsets": {
+				"from": 556800,
+				"to": 558100
+			},
+			"text": " When you pick it up, is that okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:18,100",
+				"to": "00:09:19,500"
+			},
+			"offsets": {
+				"from": 558100,
+				"to": 559500
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:19,500",
+				"to": "00:09:19,900"
+			},
+			"offsets": {
+				"from": 559500,
+				"to": 559900
+			},
+			"text": " Sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:19,900",
+				"to": "00:09:20,500"
+			},
+			"offsets": {
+				"from": 559900,
+				"to": 560500
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:20,500",
+				"to": "00:09:22,400"
+			},
+			"offsets": {
+				"from": 560500,
+				"to": 562400
+			},
+			"text": " Well, is this your best contact number?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:22,400",
+				"to": "00:09:24,100"
+			},
+			"offsets": {
+				"from": 562400,
+				"to": 564100
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:24,100",
+				"to": "00:09:25,900"
+			},
+			"offsets": {
+				"from": 564100,
+				"to": 565900
+			},
+			"text": " Are you going to call me back or do I just hold it?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:25,900",
+				"to": "00:09:30,800"
+			},
+			"offsets": {
+				"from": 565900,
+				"to": 570800
+			},
+			"text": " I'm going to call you back because at the moment my dollars is having a little technical difficulty."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:30,800",
+				"to": "00:09:32,200"
+			},
+			"offsets": {
+				"from": 570800,
+				"to": 572200
+			},
+			"text": " So I will give you a call back."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:33,000",
+				"to": "00:09:33,200"
+			},
+			"offsets": {
+				"from": 573000,
+				"to": 573200
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:33,200",
+				"to": "00:09:39,000"
+			},
+			"offsets": {
+				"from": 573200,
+				"to": 579000
+			},
+			"text": " Why don't I go ahead and book something and then what you find out that I can just, I could tell you."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:39,000",
+				"to": "00:09:39,800"
+			},
+			"offsets": {
+				"from": 579000,
+				"to": 579800
+			},
+			"text": " Yeah, that's okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:39,800",
+				"to": "00:09:41,200"
+			},
+			"offsets": {
+				"from": 579800,
+				"to": 581200
+			},
+			"text": " Are you on the website also?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:41,200",
+				"to": "00:09:44,100"
+			},
+			"offsets": {
+				"from": 581200,
+				"to": 584100
+			},
+			"text": " Hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:44,100",
+				"to": "00:09:45,600"
+			},
+			"offsets": {
+				"from": 584100,
+				"to": 585600
+			},
+			"text": " I can get on the website."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,600",
+				"to": "00:09:52,000"
+			},
+			"offsets": {
+				"from": 585600,
+				"to": 592000
+			},
+			"text": " Give me one minute."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:52,000",
+				"to": "00:09:52,200"
+			},
+			"offsets": {
+				"from": 592000,
+				"to": 592200
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:52,200",
+				"to": "00:10:05,400"
+			},
+			"offsets": {
+				"from": 592200,
+				"to": 605400
+			},
+			"text": " I'm on the website already."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:05,400",
+				"to": "00:10:06,300"
+			},
+			"offsets": {
+				"from": 605400,
+				"to": 606300
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:06,300",
+				"to": "00:10:09,900"
+			},
+			"offsets": {
+				"from": 606300,
+				"to": 609900
+			},
+			"text": " Well, you could do your bookings and I'm going to call the car company."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:09,900",
+				"to": "00:10:12,500"
+			},
+			"offsets": {
+				"from": 609900,
+				"to": 612500
+			},
+			"text": " Will you be booking the same car?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:12,500",
+				"to": "00:10:15,100"
+			},
+			"offsets": {
+				"from": 612500,
+				"to": 615100
+			},
+			"text": " Well, I don't know."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:15,100",
+				"to": "00:10:16,400"
+			},
+			"offsets": {
+				"from": 615100,
+				"to": 616400
+			},
+			"text": " There's like too many options here."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:16,400",
+				"to": "00:10:17,900"
+			},
+			"offsets": {
+				"from": 616400,
+				"to": 617900
+			},
+			"text": " I don't know which I'm going to book."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:17,900",
+				"to": "00:10:19,900"
+			},
+			"offsets": {
+				"from": 617900,
+				"to": 619900
+			},
+			"text": " That's how I want to try to do it with you."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:19,900",
+				"to": "00:10:20,900"
+			},
+			"offsets": {
+				"from": 619900,
+				"to": 620900
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:21,000",
+				"to": "00:10:29,000"
+			},
+			"offsets": {
+				"from": 621000,
+				"to": 629000
+			},
+			"text": " Because I will need to know what car company to contact because there is Alamo, Enterprise, Budget, Dollar, Trifty."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:29,000",
+				"to": "00:10:33,300"
+			},
+			"offsets": {
+				"from": 629000,
+				"to": 633300
+			},
+			"text": " And I would need to know which car company I would need to contact."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:33,300",
+				"to": "00:10:36,900"
+			},
+			"offsets": {
+				"from": 633300,
+				"to": 636900
+			},
+			"text": " Oh, I see."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:36,900",
+				"to": "00:10:37,800"
+			},
+			"offsets": {
+				"from": 636900,
+				"to": 637800
+			},
+			"text": " Let me just do."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:37,800",
+				"to": "00:10:39,500"
+			},
+			"offsets": {
+				"from": 637800,
+				"to": 639500
+			},
+			"text": " So which time I booking here?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:39,500",
+				"to": "00:10:44,100"
+			},
+			"offsets": {
+				"from": 639500,
+				"to": 644100
+			},
+			"text": " Economy car, Contact, Full-size car or mini-car, premium car?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:44,100",
+				"to": "00:10:47,700"
+			},
+			"offsets": {
+				"from": 644100,
+				"to": 647700
+			},
+			"text": " Whatever you want then just select it."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:47,700",
+				"to": "00:10:53,300"
+			},
+			"offsets": {
+				"from": 647700,
+				"to": 653300
+			},
+			"text": " It will start off with the cheapest one which is budget or whatever which one is the cheapest it will start off."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:53,300",
+				"to": "00:10:54,200"
+			},
+			"offsets": {
+				"from": 653300,
+				"to": 654200
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:54,200",
+				"to": "00:10:55,700"
+			},
+			"offsets": {
+				"from": 654200,
+				"to": 655700
+			},
+			"text": " I'm looking here right now."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:55,700",
+				"to": "00:10:56,800"
+			},
+			"offsets": {
+				"from": 655700,
+				"to": 656800
+			},
+			"text": " It's a Ford."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:56,800",
+				"to": "00:10:57,500"
+			},
+			"offsets": {
+				"from": 656800,
+				"to": 657500
+			},
+			"text": " Hold on."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:57,500",
+				"to": "00:11:00,800"
+			},
+			"offsets": {
+				"from": 657500,
+				"to": 660800
+			},
+			"text": " Yes, for economy sports utility vehicle."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:00,800",
+				"to": "00:11:01,600"
+			},
+			"offsets": {
+				"from": 660800,
+				"to": 661600
+			},
+			"text": " Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:01,600",
+				"to": "00:11:03,000"
+			},
+			"offsets": {
+				"from": 661600,
+				"to": 663000
+			},
+			"text": " Ford, Dollar today."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:03,000",
+				"to": "00:11:06,000"
+			},
+			"offsets": {
+				"from": 663000,
+				"to": 666000
+			},
+			"text": " Economy sports utility vehicle."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:06,000",
+				"to": "00:11:07,300"
+			},
+			"offsets": {
+				"from": 666000,
+				"to": 667300
+			},
+			"text": " Let me see if I find that."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:07,300",
+				"to": "00:11:08,700"
+			},
+			"offsets": {
+				"from": 667300,
+				"to": 668700
+			},
+			"text": " It's the same car."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:08,700",
+				"to": "00:11:10,700"
+			},
+			"offsets": {
+				"from": 668700,
+				"to": 670700
+			},
+			"text": " It's a Renault Patrick."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:10,700",
+				"to": "00:11:15,400"
+			},
+			"offsets": {
+				"from": 670700,
+				"to": 675400
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:15,400",
+				"to": "00:11:16,600"
+			},
+			"offsets": {
+				"from": 675400,
+				"to": 676600
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:16,600",
+				"to": "00:11:17,000"
+			},
+			"offsets": {
+				"from": 676600,
+				"to": 677000
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,000",
+				"to": "00:11:20,000"
+			},
+			"offsets": {
+				"from": 678000,
+				"to": 680000
+			},
+			"text": " And it's going into like that?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:20,000",
+				"to": "00:11:21,000"
+			},
+			"offsets": {
+				"from": 680000,
+				"to": 681000
+			},
+			"text": " From budget?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:21,000",
+				"to": "00:11:21,500"
+			},
+			"offsets": {
+				"from": 681000,
+				"to": 681500
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:21,500",
+				"to": "00:11:23,000"
+			},
+			"offsets": {
+				"from": 681500,
+				"to": 683000
+			},
+			"text": " Yes, it's from budget."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:23,000",
+				"to": "00:11:32,500"
+			},
+			"offsets": {
+				"from": 683000,
+				"to": 692500
+			},
+			"text": " Oh, so you have to run your search again."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:32,500",
+				"to": "00:11:34,500"
+			},
+			"offsets": {
+				"from": 692500,
+				"to": 694500
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:34,500",
+				"to": "00:11:38,000"
+			},
+			"offsets": {
+				"from": 694500,
+				"to": 698000
+			},
+			"text": " Oh, I have to do a search again apparently."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:38,000",
+				"to": "00:11:42,000"
+			},
+			"offsets": {
+				"from": 698000,
+				"to": 702000
+			},
+			"text": " Yes, so since it's from budget what I could do is I could call them."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,000",
+				"to": "00:11:42,500"
+			},
+			"offsets": {
+				"from": 702000,
+				"to": 702500
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,500",
+				"to": "00:11:52,000"
+			},
+			"offsets": {
+				"from": 702500,
+				"to": 712000
+			},
+			"text": " Okay, so which one do I choose here?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:52,000",
+				"to": "00:11:57,000"
+			},
+			"offsets": {
+				"from": 712000,
+				"to": 717000
+			},
+			"text": " Montevideo Plaza or do I go for Calisthenia, Athens, whatever?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:57,000",
+				"to": "00:12:01,000"
+			},
+			"offsets": {
+				"from": 717000,
+				"to": 721000
+			},
+			"text": " Is that on the location section?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:01,000",
+				"to": "00:12:03,500"
+			},
+			"offsets": {
+				"from": 721000,
+				"to": 723500
+			},
+			"text": " Yeah, the location."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:03,500",
+				"to": "00:12:07,000"
+			},
+			"offsets": {
+				"from": 723500,
+				"to": 727000
+			},
+			"text": " It uses two options for stations but it doesn't use the airport."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:07,000",
+				"to": "00:12:08,000"
+			},
+			"offsets": {
+				"from": 727000,
+				"to": 728000
+			},
+			"text": " So which one is the airport?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:08,000",
+				"to": "00:12:10,000"
+			},
+			"offsets": {
+				"from": 728000,
+				"to": 730000
+			},
+			"text": " Okay, you type in SJD."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,000",
+				"to": "00:12:12,000"
+			},
+			"offsets": {
+				"from": 730000,
+				"to": 732000
+			},
+			"text": " That is the airport hold."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:12,000",
+				"to": "00:12:20,000"
+			},
+			"offsets": {
+				"from": 732000,
+				"to": 740000
+			},
+			"text": " So the application I put in the name of the car?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:20,000",
+				"to": "00:12:22,000"
+			},
+			"offsets": {
+				"from": 740000,
+				"to": 742000
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:22,000",
+				"to": "00:12:23,000"
+			},
+			"offsets": {
+				"from": 742000,
+				"to": 743000
+			},
+			"text": " SJD."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,000",
+				"to": "00:12:28,000"
+			},
+			"offsets": {
+				"from": 743000,
+				"to": 748000
+			},
+			"text": " And then it will provide you with that airport."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,000",
+				"to": "00:12:32,000"
+			},
+			"offsets": {
+				"from": 748000,
+				"to": 752000
+			},
+			"text": " SJD."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:32,000",
+				"to": "00:12:36,000"
+			},
+			"offsets": {
+				"from": 752000,
+				"to": 756000
+			},
+			"text": " The car was in the name of the car."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:38,000",
+				"to": "00:12:40,000"
+			},
+			"offsets": {
+				"from": 758000,
+				"to": 760000
+			},
+			"text": " Then you fill in your date."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:40,000",
+				"to": "00:12:43,000"
+			},
+			"offsets": {
+				"from": 760000,
+				"to": 763000
+			},
+			"text": " Yeah, I put the date and..."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:43,000",
+				"to": "00:12:45,000"
+			},
+			"offsets": {
+				"from": 763000,
+				"to": 765000
+			},
+			"text": " The time."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:45,000",
+				"to": "00:12:46,000"
+			},
+			"offsets": {
+				"from": 765000,
+				"to": 766000
+			},
+			"text": " ...which are there."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:46,000",
+				"to": "00:12:50,000"
+			},
+			"offsets": {
+				"from": 766000,
+				"to": 770000
+			},
+			"text": " Then you run the search again."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:50,000",
+				"to": "00:12:52,000"
+			},
+			"offsets": {
+				"from": 770000,
+				"to": 772000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:52,000",
+				"to": "00:12:58,000"
+			},
+			"offsets": {
+				"from": 772000,
+				"to": 778000
+			},
+			"text": " Oh, there you go."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:58,000",
+				"to": "00:12:59,000"
+			},
+			"offsets": {
+				"from": 778000,
+				"to": 779000
+			},
+			"text": " Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:59,000",
+				"to": "00:13:00,000"
+			},
+			"offsets": {
+				"from": 779000,
+				"to": 780000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:03,000",
+				"to": "00:13:08,000"
+			},
+			"offsets": {
+				"from": 783000,
+				"to": 788000
+			},
+			"text": " And I want you to go down and we'll give you that."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:08,000",
+				"to": "00:13:10,000"
+			},
+			"offsets": {
+				"from": 788000,
+				"to": 790000
+			},
+			"text": " Oh, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:10,000",
+				"to": "00:13:12,000"
+			},
+			"offsets": {
+				"from": 790000,
+				"to": 792000
+			},
+			"text": " So you're just already giving me that."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:12,000",
+				"to": "00:13:14,000"
+			},
+			"offsets": {
+				"from": 792000,
+				"to": 794000
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:14,000",
+				"to": "00:13:15,000"
+			},
+			"offsets": {
+				"from": 794000,
+				"to": 795000
+			},
+			"text": " And that's the budget."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:15,000",
+				"to": "00:13:16,000"
+			},
+			"offsets": {
+				"from": 795000,
+				"to": 796000
+			},
+			"text": " So you're charging me..."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:16,000",
+				"to": "00:13:19,000"
+			},
+			"offsets": {
+				"from": 796000,
+				"to": 799000
+			},
+			"text": " Yeah, it says 41.50."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:19,000",
+				"to": "00:13:22,000"
+			},
+			"offsets": {
+				"from": 799000,
+				"to": 802000
+			},
+			"text": " So this would be budget at the airport, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:22,000",
+				"to": "00:13:23,000"
+			},
+			"offsets": {
+				"from": 802000,
+				"to": 803000
+			},
+			"text": " Uh-huh."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:23,000",
+				"to": "00:13:25,000"
+			},
+			"offsets": {
+				"from": 803000,
+				"to": 805000
+			},
+			"text": " Okay, perfect."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:25,000",
+				"to": "00:13:30,000"
+			},
+			"offsets": {
+				"from": 805000,
+				"to": 810000
+			},
+			"text": " So I really don't need to do anything else, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:30,000",
+				"to": "00:13:31,000"
+			},
+			"offsets": {
+				"from": 810000,
+				"to": 811000
+			},
+			"text": " No."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:31,000",
+				"to": "00:13:32,000"
+			},
+			"offsets": {
+				"from": 811000,
+				"to": 812000
+			},
+			"text": " No."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:32,000",
+				"to": "00:13:35,000"
+			},
+			"offsets": {
+				"from": 812000,
+				"to": 815000
+			},
+			"text": " You just..."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:35,000",
+				"to": "00:13:38,000"
+			},
+			"offsets": {
+				"from": 815000,
+				"to": 818000
+			},
+			"text": " Will you be booking it on your end or do you want me to book it on my end?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:38,000",
+				"to": "00:13:39,000"
+			},
+			"offsets": {
+				"from": 818000,
+				"to": 819000
+			},
+			"text": " No, no, no."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:39,000",
+				"to": "00:13:40,000"
+			},
+			"offsets": {
+				"from": 819000,
+				"to": 820000
+			},
+			"text": " I'm able to book it here."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:40,000",
+				"to": "00:13:41,000"
+			},
+			"offsets": {
+				"from": 820000,
+				"to": 821000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:41,000",
+				"to": "00:13:42,000"
+			},
+			"offsets": {
+				"from": 821000,
+				"to": 822000
+			},
+			"text": " I think I'm able to book it here."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:42,000",
+				"to": "00:13:45,000"
+			},
+			"offsets": {
+				"from": 822000,
+				"to": 825000
+			},
+			"text": " Do you still want me to call you off?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:45,000",
+				"to": "00:13:47,000"
+			},
+			"offsets": {
+				"from": 825000,
+				"to": 827000
+			},
+			"text": " No, don't worry about it."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:47,000",
+				"to": "00:13:48,000"
+			},
+			"offsets": {
+				"from": 827000,
+				"to": 828000
+			},
+			"text": " I'm good."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:48,000",
+				"to": "00:13:49,000"
+			},
+			"offsets": {
+				"from": 828000,
+				"to": 829000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:49,000",
+				"to": "00:13:51,000"
+			},
+			"offsets": {
+				"from": 829000,
+				"to": 831000
+			},
+			"text": " Well, is there anything else you would like me to assist you with today?"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:51,000",
+				"to": "00:13:53,000"
+			},
+			"offsets": {
+				"from": 831000,
+				"to": 833000
+			},
+			"text": " No, I appreciate your help."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:53,000",
+				"to": "00:13:54,000"
+			},
+			"offsets": {
+				"from": 833000,
+				"to": 834000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:54,000",
+				"to": "00:13:57,000"
+			},
+			"offsets": {
+				"from": 834000,
+				"to": 837000
+			},
+			"text": " Well, thank you so much for being a member of World Discovery Pacific."
+		},
+		{
+			"timestamps": {
+				"from": "00:13:57,000",
+				"to": "00:14:00,000"
+			},
+			"offsets": {
+				"from": 837000,
+				"to": 840000
+			},
+			"text": " And before we end this call, I would like to remind you to check your emails for the special"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:00,000",
+				"to": "00:14:01,000"
+			},
+			"offsets": {
+				"from": 840000,
+				"to": 841000
+			},
+			"text": " things that we send out each week."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:01,000",
+				"to": "00:14:03,000"
+			},
+			"offsets": {
+				"from": 841000,
+				"to": 843000
+			},
+			"text": " Have you been getting those emails?"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:03,000",
+				"to": "00:14:06,000"
+			},
+			"offsets": {
+				"from": 843000,
+				"to": 846000
+			},
+			"text": " Alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:06,000",
+				"to": "00:14:08,000"
+			},
+			"offsets": {
+				"from": 846000,
+				"to": 848000
+			},
+			"text": " Okay, that's great."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:08,000",
+				"to": "00:14:09,000"
+			},
+			"offsets": {
+				"from": 848000,
+				"to": 849000
+			},
+			"text": " Well, again, again, my name is Koli."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:09,000",
+				"to": "00:14:12,000"
+			},
+			"offsets": {
+				"from": 849000,
+				"to": 852000
+			},
+			"text": " Thank you for being a member of World Discovery Pacific and have a great day."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:12,000",
+				"to": "00:14:14,000"
+			},
+			"offsets": {
+				"from": 852000,
+				"to": 854000
+			},
+			"text": " You too."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:14,000",
+				"to": "00:14:15,000"
+			},
+			"offsets": {
+				"from": 854000,
+				"to": 855000
+			},
+			"text": " Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:14:15,000",
+				"to": "00:14:16,000"
+			},
+			"offsets": {
+				"from": 855000,
+				"to": 856000
+			},
+			"text": " Bye-bye."
+		}
+	]
+}

@@ -1,0 +1,1946 @@
+{
+	"systeminfo": "AVX = 0 | AVX2 = 0 | AVX512 = 0 | FMA = 0 | NEON = 1 | ARM_FMA = 1 | METAL = 1 | F16C = 0 | FP16_VA = 1 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0 | ",
+	"model": {
+		"type": "medium",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "whisper.cpp/models/ggml-medium.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:05,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 5000
+			},
+			"text": " Thank you for calling Concierge Department. My name is Wendy with whom we have the pleasure of speaking with today."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,000",
+				"to": "00:00:08,000"
+			},
+			"offsets": {
+				"from": 5000,
+				"to": 8000
+			},
+			"text": " Hi Jason, how are you doing today?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,000",
+				"to": "00:00:18,000"
+			},
+			"offsets": {
+				"from": 8000,
+				"to": 18000
+			},
+			"text": " Not so good. I found out that I'm not able to find any locations that are offering rental cars to throw in my $100 bank balance that I have with Pennzoil."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,000",
+				"to": "00:00:22,000"
+			},
+			"offsets": {
+				"from": 18000,
+				"to": 22000
+			},
+			"text": " I keep searching every single town but there's no results."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,000",
+				"to": "00:00:24,000"
+			},
+			"offsets": {
+				"from": 22000,
+				"to": 24000
+			},
+			"text": " So I think something's wrong here."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,000",
+				"to": "00:00:33,000"
+			},
+			"offsets": {
+				"from": 24000,
+				"to": 33000
+			},
+			"text": " I want to know if it's possible I could use my Pennzoil savings code somewhere else in order to rent a car."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,000",
+				"to": "00:00:38,000"
+			},
+			"offsets": {
+				"from": 33000,
+				"to": 38000
+			},
+			"text": " I don't find the booking website really reliable at all. It's not really helping me get any cars."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,000",
+				"to": "00:00:42,000"
+			},
+			"offsets": {
+				"from": 38000,
+				"to": 42000
+			},
+			"text": " Okay, I understand where you're coming from. Really sorry about all the convenience being caused."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,000",
+				"to": "00:00:47,000"
+			},
+			"offsets": {
+				"from": 42000,
+				"to": 47000
+			},
+			"text": " What I can go ahead and do is that I can try to run the search in my industry if I could get something there for you."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,000",
+				"to": "00:00:53,000"
+			},
+			"offsets": {
+				"from": 47000,
+				"to": 53000
+			},
+			"text": " If not, but unfortunately you cannot use your rental points anywhere else other than the web search there."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,000",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": 53000,
+				"to": 60000
+			},
+			"text": " Okay, well I'm pretty sure something's wrong with the website because it's not giving me any results anywhere, no matter where I search."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,000",
+				"to": "00:01:03,000"
+			},
+			"offsets": {
+				"from": 60000,
+				"to": 63000
+			},
+			"text": " I'm really sorry. Allow me to go ahead and try to run the search on my own."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,000",
+				"to": "00:01:08,000"
+			},
+			"offsets": {
+				"from": 63000,
+				"to": 68000
+			},
+			"text": " Okay, but I would need a phone number that's associated with the account. Can you provide that over to me please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,000",
+				"to": "00:01:15,000"
+			},
+			"offsets": {
+				"from": 68000,
+				"to": 75000
+			},
+			"text": " Okay, it doesn't seem that an account is being pulled up by that number. Do you think it's associated with an email address that you could provide me with please?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,000",
+				"to": "00:01:16,000"
+			},
+			"offsets": {
+				"from": 75000,
+				"to": 76000
+			},
+			"text": " Yeah, sure."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,000",
+				"to": "00:01:18,000"
+			},
+			"offsets": {
+				"from": 76000,
+				"to": 78000
+			},
+			"text": " Okay, one moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,000",
+				"to": "00:01:23,000"
+			},
+			"offsets": {
+				"from": 78000,
+				"to": 83000
+			},
+			"text": " Okay, perfect. I was able to locate your account. Thank you for being a member of Pencils."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,000",
+				"to": "00:01:26,000"
+			},
+			"offsets": {
+				"from": 83000,
+				"to": 86000
+			},
+			"text": " Allow me one moment. Let me go ahead and try to run the search."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,000",
+				"to": "00:01:31,000"
+			},
+			"offsets": {
+				"from": 86000,
+				"to": 91000
+			},
+			"text": " Could you provide me the information for this car rental? Where will it be picked up and where will it be dropped off?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,000",
+				"to": "00:01:36,000"
+			},
+			"offsets": {
+				"from": 91000,
+				"to": 96000
+			},
+			"text": " The CERES Auto Center in Antioch. Find out what options are available."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,000",
+				"to": "00:01:43,000"
+			},
+			"offsets": {
+				"from": 96000,
+				"to": 103000
+			},
+			"text": " I want to find a car that's a Ford car that I can rent for around $90 to $100 for one day."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,000",
+				"to": "00:01:44,000"
+			},
+			"offsets": {
+				"from": 103000,
+				"to": 104000
+			},
+			"text": " For one day."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,000",
+				"to": "00:01:45,000"
+			},
+			"offsets": {
+				"from": 104000,
+				"to": 105000
+			},
+			"text": " What will be the specific day, sir?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,000",
+				"to": "00:01:46,000"
+			},
+			"offsets": {
+				"from": 105000,
+				"to": 106000
+			},
+			"text": " Today."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,000",
+				"to": "00:01:47,000"
+			},
+			"offsets": {
+				"from": 106000,
+				"to": 107000
+			},
+			"text": " Today."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,000",
+				"to": "00:01:49,000"
+			},
+			"offsets": {
+				"from": 107000,
+				"to": 109000
+			},
+			"text": " I'm going to say the earliest possible times today."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:49,000",
+				"to": "00:01:50,000"
+			},
+			"offsets": {
+				"from": 109000,
+				"to": 110000
+			},
+			"text": " In Antioch, correct?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,000",
+				"to": "00:01:51,000"
+			},
+			"offsets": {
+				"from": 110000,
+				"to": 111000
+			},
+			"text": " That's correct."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,000",
+				"to": "00:01:52,000"
+			},
+			"offsets": {
+				"from": 111000,
+				"to": 112000
+			},
+			"text": " Allow me one moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,000",
+				"to": "00:01:53,000"
+			},
+			"offsets": {
+				"from": 112000,
+				"to": 113000
+			},
+			"text": " That's Antioch, California?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,000",
+				"to": "00:01:54,000"
+			},
+			"offsets": {
+				"from": 113000,
+				"to": 114000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,000",
+				"to": "00:01:57,000"
+			},
+			"offsets": {
+				"from": 114000,
+				"to": 117000
+			},
+			"text": " And when will the car be dropped off? Tomorrow, the 18th, correct?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,000",
+				"to": "00:01:58,000"
+			},
+			"offsets": {
+				"from": 117000,
+				"to": 118000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,000",
+				"to": "00:01:59,000"
+			},
+			"offsets": {
+				"from": 118000,
+				"to": 119000
+			},
+			"text": " Will you be picking up at noon?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,000",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 119000,
+				"to": 120000
+			},
+			"text": " Noon is fine."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,000",
+				"to": "00:02:01,000"
+			},
+			"offsets": {
+				"from": 120000,
+				"to": 121000
+			},
+			"text": " And dropping off at the same time?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:01,000",
+				"to": "00:02:02,000"
+			},
+			"offsets": {
+				"from": 121000,
+				"to": 122000
+			},
+			"text": " Correct."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:02,000",
+				"to": "00:02:03,000"
+			},
+			"offsets": {
+				"from": 122000,
+				"to": 123000
+			},
+			"text": " Allow me one moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,000",
+				"to": "00:02:11,000"
+			},
+			"offsets": {
+				"from": 123000,
+				"to": 131000
+			},
+			"text": " Yeah, so unfortunately I do see that it's giving me the same error. It does say that everything is already sold out for these specific days that you were looking for."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,000",
+				"to": "00:02:15,000"
+			},
+			"offsets": {
+				"from": 131000,
+				"to": 135000
+			},
+			"text": " Yeah, but if you look at different time periods, it's going to say the same thing in every location."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,000",
+				"to": "00:02:22,000"
+			},
+			"offsets": {
+				"from": 135000,
+				"to": 142000
+			},
+			"text": " Yeah, so I do see that being pulled up. I'm trying different dates and different locations, and I do see that everything is sold out as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,000",
+				"to": "00:02:27,000"
+			},
+			"offsets": {
+				"from": 142000,
+				"to": 147000
+			},
+			"text": " Yeah, I don't see anything being pulled up there."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,000",
+				"to": "00:02:31,000"
+			},
+			"offsets": {
+				"from": 147000,
+				"to": 151000
+			},
+			"text": " Allow me one moment. Let me see if I can find something in our back inventory for you, okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:31,000",
+				"to": "00:02:34,000"
+			},
+			"offsets": {
+				"from": 151000,
+				"to": 154000
+			},
+			"text": " Yeah, the closest location in Antioch."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,000",
+				"to": "00:02:35,000"
+			},
+			"offsets": {
+				"from": 154000,
+				"to": 155000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,000",
+				"to": "00:02:39,000"
+			},
+			"offsets": {
+				"from": 155000,
+				"to": 159000
+			},
+			"text": " One moment here. I'm just trying to see if I can find something there, okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,000",
+				"to": "00:02:40,000"
+			},
+			"offsets": {
+				"from": 159000,
+				"to": 160000
+			},
+			"text": " All right."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:40,000",
+				"to": "00:02:52,000"
+			},
+			"offsets": {
+				"from": 160000,
+				"to": 172000
+			},
+			"text": " Okay, so I'm seeing here that for the dates that you were looking for, I have a economy, Chevrolet Spark, Ford PSR is similar. This is what it says here."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,000",
+				"to": "00:02:53,000"
+			},
+			"offsets": {
+				"from": 172000,
+				"to": 173000
+			},
+			"text": " Which HRST location?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,000",
+				"to": "00:03:02,000"
+			},
+			"offsets": {
+				"from": 173000,
+				"to": 182000
+			},
+			"text": " All right, allow me one moment. Let me try to get... That is the only one that I see that is being picked up here. The only address that I have is..."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,000",
+				"to": "00:03:07,000"
+			},
+			"offsets": {
+				"from": 182000,
+				"to": 187000
+			},
+			"text": " That is the only thing that I see here."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,000",
+				"to": "00:03:11,000"
+			},
+			"offsets": {
+				"from": 187000,
+				"to": 191000
+			},
+			"text": " Okay, if I search Concord myself, maybe I can find that and look at it manually."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,000",
+				"to": "00:03:17,000"
+			},
+			"offsets": {
+				"from": 191000,
+				"to": 197000
+			},
+			"text": " Okay, I'm searching right now, and it says we're unable to find any available vehicles in Concord. Did you put a specific date or time or something?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,000",
+				"to": "00:03:23,000"
+			},
+			"offsets": {
+				"from": 197000,
+				"to": 203000
+			},
+			"text": " Actually, like I said, this is in our back inventory, so it's something that only the agents have access to."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,000",
+				"to": "00:03:26,000"
+			},
+			"offsets": {
+				"from": 203000,
+				"to": 206000
+			},
+			"text": " So this is something that we see, yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:26,000",
+				"to": "00:03:29,000"
+			},
+			"offsets": {
+				"from": 206000,
+				"to": 209000
+			},
+			"text": " Okay, so can you give me the list of the options?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:29,000",
+				"to": "00:03:34,000"
+			},
+			"offsets": {
+				"from": 209000,
+				"to": 214000
+			},
+			"text": " Okay, so I have the economy, Chevrolet Spark, Ford PSR is similar. This is what HRST."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,000",
+				"to": "00:03:38,000"
+			},
+			"offsets": {
+				"from": 214000,
+				"to": 218000
+			},
+			"text": " I also have a compact car, which is a Ford Focus, Nissan, Versa are similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,000",
+				"to": "00:03:39,000"
+			},
+			"offsets": {
+				"from": 218000,
+				"to": 219000
+			},
+			"text": " This is the..."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,000",
+				"to": "00:03:42,000"
+			},
+			"offsets": {
+				"from": 219000,
+				"to": 222000
+			},
+			"text": " Why can't you... Can you go a little slower?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,000",
+				"to": "00:03:50,000"
+			},
+			"offsets": {
+				"from": 222000,
+				"to": 230000
+			},
+			"text": " Okay, sorry about that. That is the compact Ford Focus, Nissan, Versa are similar. This is to be picked up at two..."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,000",
+				"to": "00:03:58,000"
+			},
+			"offsets": {
+				"from": 230000,
+				"to": 238000
+			},
+			"text": " ...as well. It says 12.92 miles from Antioch City Center."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,000",
+				"to": "00:04:04,000"
+			},
+			"offsets": {
+				"from": 238000,
+				"to": 244000
+			},
+			"text": " I also have an economy, Chevrolet Spark, Ford PSR is similar again, to be picked up at..."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:04,000",
+				"to": "00:04:11,000"
+			},
+			"offsets": {
+				"from": 244000,
+				"to": 251000
+			},
+			"text": " So that location says it's closed. Can you look at the HRST and Monument Boulevard?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,000",
+				"to": "00:04:12,000"
+			},
+			"offsets": {
+				"from": 251000,
+				"to": 252000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,000",
+				"to": "00:04:13,000"
+			},
+			"offsets": {
+				"from": 252000,
+				"to": 253000
+			},
+			"text": " Okay, not a problem."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:13,000",
+				"to": "00:04:19,000"
+			},
+			"offsets": {
+				"from": 253000,
+				"to": 259000
+			},
+			"text": " So it says here it closes at 12 p.m. as well. So that would be the time that you would be picking up the car."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,000",
+				"to": "00:04:21,000"
+			},
+			"offsets": {
+				"from": 259000,
+				"to": 261000
+			},
+			"text": " Okay, so which location?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,000",
+				"to": "00:04:29,000"
+			},
+			"offsets": {
+				"from": 261000,
+				"to": 269000
+			},
+			"text": " It seems that all of them close at 12 p.m. and then there is no other one to be picked up at somewhere else, unfortunately, sir."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,000",
+				"to": "00:04:32,000"
+			},
+			"offsets": {
+				"from": 269000,
+				"to": 272000
+			},
+			"text": " So I do have time left to pick it up."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:32,000",
+				"to": "00:04:38,000"
+			},
+			"offsets": {
+				"from": 272000,
+				"to": 278000
+			},
+			"text": " Okay, so all of them close at 12 p.m. So I don't know what time you're seeing now, but..."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:38,000",
+				"to": "00:04:42,000"
+			},
+			"offsets": {
+				"from": 278000,
+				"to": 282000
+			},
+			"text": " I'm in 10... My time is now at 10.24 a.m."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,000",
+				"to": "00:04:49,000"
+			},
+			"offsets": {
+				"from": 282000,
+				"to": 289000
+			},
+			"text": " Okay, because I have 11.24. So it doesn't give me a specific time as well, time zone."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,000",
+				"to": "00:04:55,000"
+			},
+			"offsets": {
+				"from": 289000,
+				"to": 295000
+			},
+			"text": " But it is... So it does say here at 12 p.m. 9 a.m. to 12 p.m. California."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,000",
+				"to": "00:04:58,000"
+			},
+			"offsets": {
+				"from": 295000,
+				"to": 298000
+			},
+			"text": " So it's still open, the same location you're talking about?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:58,000",
+				"to": "00:05:00,000"
+			},
+			"offsets": {
+				"from": 298000,
+				"to": 300000
+			},
+			"text": " Yeah, so that would be..."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,000",
+				"to": "00:05:08,000"
+			},
+			"offsets": {
+				"from": 300000,
+				"to": 308000
+			},
+			"text": " Crow Canyon. It says here..."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:08,000",
+				"to": "00:05:13,000"
+			},
+			"offsets": {
+				"from": 308000,
+				"to": 313000
+			},
+			"text": " Wait a minute, I thought you said... So none of the concrete locations are open right now?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:13,000",
+				"to": "00:05:16,000"
+			},
+			"offsets": {
+				"from": 313000,
+				"to": 316000
+			},
+			"text": " No, sir, unfortunately not. All of them are closed."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,000",
+				"to": "00:05:19,000"
+			},
+			"offsets": {
+				"from": 316000,
+				"to": 319000
+			},
+			"text": " Okay, so no one's in San Ramon. Okay, that's fine. Let me see what..."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:19,000",
+				"to": "00:05:22,000"
+			},
+			"offsets": {
+				"from": 319000,
+				"to": 322000
+			},
+			"text": " So can you tell me the options available in that location?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,000",
+				"to": "00:05:27,000"
+			},
+			"offsets": {
+				"from": 322000,
+				"to": 327000
+			},
+			"text": " Okay, so for that one I have an economy, Chevrolet, Spark Board, Fiesta are similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,000",
+				"to": "00:05:35,000"
+			},
+			"offsets": {
+				"from": 327000,
+				"to": 335000
+			},
+			"text": " That is the only one. And then I have a compact car, which is also at the Crow Canyon for a Ford Focus."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:35,000",
+				"to": "00:05:37,000"
+			},
+			"offsets": {
+				"from": 335000,
+				"to": 337000
+			},
+			"text": " Nice and very similar as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,000",
+				"to": "00:05:41,000"
+			},
+			"offsets": {
+				"from": 337000,
+				"to": 341000
+			},
+			"text": " I'm looking for something around 100 or 100... Between 90 and 120 dollars."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,000",
+				"to": "00:05:42,000"
+			},
+			"offsets": {
+				"from": 341000,
+				"to": 342000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,000",
+				"to": "00:05:46,000"
+			},
+			"offsets": {
+				"from": 342000,
+				"to": 346000
+			},
+			"text": " And San Ramon, is that the only location where you're able to find anything near me?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:46,000",
+				"to": "00:05:50,000"
+			},
+			"offsets": {
+				"from": 346000,
+				"to": 350000
+			},
+			"text": " Yeah, so like I said, everything else is already closed."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:50,000",
+				"to": "00:05:56,000"
+			},
+			"offsets": {
+				"from": 350000,
+				"to": 356000
+			},
+			"text": " The only one that will close at 12 is the one in Crow Canyon Place, San Ramon, California."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,000",
+				"to": "00:06:01,000"
+			},
+			"offsets": {
+				"from": 356000,
+				"to": 361000
+			},
+			"text": " Okay, so I have about 30 minutes to make it. I have about an hour until I can make it over there."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:01,000",
+				"to": "00:06:02,000"
+			},
+			"offsets": {
+				"from": 361000,
+				"to": 362000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,000",
+				"to": "00:06:08,000"
+			},
+			"offsets": {
+				"from": 362000,
+				"to": 368000
+			},
+			"text": " Can you give me the list of cars that have a six cylinder, eight cylinder..."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,000",
+				"to": "00:06:14,000"
+			},
+			"offsets": {
+				"from": 368000,
+				"to": 374000
+			},
+			"text": " I'm only interested... I'm not interested in economy cars. So you could avoid that."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:14,000",
+				"to": "00:06:20,000"
+			},
+			"offsets": {
+				"from": 374000,
+				"to": 380000
+			},
+			"text": " But I just want to make sure you give me a list of cars that are between 80 to 120 dollars."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:20,000",
+				"to": "00:06:21,000"
+			},
+			"offsets": {
+				"from": 380000,
+				"to": 381000
+			},
+			"text": " And that I can rent for one day."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,000",
+				"to": "00:06:22,000"
+			},
+			"offsets": {
+				"from": 381000,
+				"to": 382000
+			},
+			"text": " Alright."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:22,000",
+				"to": "00:06:24,000"
+			},
+			"offsets": {
+				"from": 382000,
+				"to": 384000
+			},
+			"text": " Starting with the most expensive one."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,000",
+				"to": "00:06:31,000"
+			},
+			"offsets": {
+				"from": 384000,
+				"to": 391000
+			},
+			"text": " Okay, allow me one moment. So for the prices that I see here on my end, I do see that they're a bit cheap."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:31,000",
+				"to": "00:06:36,000"
+			},
+			"offsets": {
+				"from": 391000,
+				"to": 396000
+			},
+			"text": " So I'm just trying to see more or less the information that I could go ahead and give out to you."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,000",
+				"to": "00:06:40,000"
+			},
+			"offsets": {
+				"from": 396000,
+				"to": 400000
+			},
+			"text": " Okay, that's why I mean if you can start from the most expensive one, top to bottom."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:40,000",
+				"to": "00:06:48,000"
+			},
+			"offsets": {
+				"from": 400000,
+				"to": 408000
+			},
+			"text": " Okay, so I have here a premium, a brick regal or similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:48,000",
+				"to": "00:06:49,000"
+			},
+			"offsets": {
+				"from": 408000,
+				"to": 409000
+			},
+			"text": " This is for 90..."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,000",
+				"to": "00:06:52,000"
+			},
+			"offsets": {
+				"from": 409000,
+				"to": 412000
+			},
+			"text": " Wait, can you go slower? I want to type it out. Brick regal..."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,000",
+				"to": "00:06:53,000"
+			},
+			"offsets": {
+				"from": 412000,
+				"to": 413000
+			},
+			"text": " Or similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:53,000",
+				"to": "00:06:55,000"
+			},
+			"offsets": {
+				"from": 413000,
+				"to": 415000
+			},
+			"text": " What type of brick regal is it?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:55,000",
+				"to": "00:07:00,000"
+			},
+			"offsets": {
+				"from": 415000,
+				"to": 420000
+			},
+			"text": " It just says premium, brick regal or similar. That is the car type there. It doesn't really specify..."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:00,000",
+				"to": "00:07:01,000"
+			},
+			"offsets": {
+				"from": 420000,
+				"to": 421000
+			},
+			"text": " I didn't know which model."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,000",
+				"to": "00:07:02,000"
+			},
+			"offsets": {
+				"from": 421000,
+				"to": 422000
+			},
+			"text": " Oh, okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,000",
+				"to": "00:07:07,000"
+			},
+			"offsets": {
+				"from": 422000,
+				"to": 427000
+			},
+			"text": " So I see what you mean. Is it a 2017 regal turbo premium?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:07,000",
+				"to": "00:07:08,000"
+			},
+			"offsets": {
+				"from": 427000,
+				"to": 428000
+			},
+			"text": " Uh, yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,000",
+				"to": "00:07:10,000"
+			},
+			"offsets": {
+				"from": 428000,
+				"to": 430000
+			},
+			"text": " Okay, and how much is that for?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,000",
+				"to": "00:07:13,000"
+			},
+			"offsets": {
+				"from": 430000,
+				"to": 433000
+			},
+			"text": " Okay, so this one is for 97 dollars total."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:13,000",
+				"to": "00:07:17,000"
+			},
+			"offsets": {
+				"from": 433000,
+				"to": 437000
+			},
+			"text": " Okay, I'm not interested in that one. Can you go on to the next one?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:17,000",
+				"to": "00:07:22,000"
+			},
+			"offsets": {
+				"from": 437000,
+				"to": 442000
+			},
+			"text": " Okay. I have a luxury Chrysler 300 or similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,000",
+				"to": "00:07:23,000"
+			},
+			"offsets": {
+				"from": 442000,
+				"to": 443000
+			},
+			"text": " And how much is that?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:23,000",
+				"to": "00:07:24,000"
+			},
+			"offsets": {
+				"from": 443000,
+				"to": 444000
+			},
+			"text": " This is for 80 total."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:24,000",
+				"to": "00:07:25,000"
+			},
+			"offsets": {
+				"from": 444000,
+				"to": 445000
+			},
+			"text": " What year?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:25,000",
+				"to": "00:07:31,000"
+			},
+			"offsets": {
+				"from": 445000,
+				"to": 451000
+			},
+			"text": " Okay, this one does not specify which year it is exactly. It just gives me the Chrysler 300 or similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,000",
+				"to": "00:07:36,000"
+			},
+			"offsets": {
+				"from": 451000,
+				"to": 456000
+			},
+			"text": " Okay, so what... when you find out... if I book that one, can you find out?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:36,000",
+				"to": "00:07:41,000"
+			},
+			"offsets": {
+				"from": 456000,
+				"to": 461000
+			},
+			"text": " For that, that would have to be directly with the agency and I would have to give them a call to see."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,000",
+				"to": "00:07:44,000"
+			},
+			"offsets": {
+				"from": 461000,
+				"to": 464000
+			},
+			"text": " Okay, can you find out if any of those locations are open tomorrow?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:44,000",
+				"to": "00:07:45,000"
+			},
+			"offsets": {
+				"from": 464000,
+				"to": 465000
+			},
+			"text": " Tomorrow."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,000",
+				"to": "00:07:47,000"
+			},
+			"offsets": {
+				"from": 465000,
+				"to": 467000
+			},
+			"text": " In conference, in a moment or any of... not, I'll just book it today."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,000",
+				"to": "00:07:48,000"
+			},
+			"offsets": {
+				"from": 467000,
+				"to": 468000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:48,000",
+				"to": "00:07:52,000"
+			},
+			"offsets": {
+				"from": 468000,
+				"to": 472000
+			},
+			"text": " Okay, is it okay if I place you in a brief hold while I try to see if I can get some information there?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:52,000",
+				"to": "00:07:53,000"
+			},
+			"offsets": {
+				"from": 472000,
+				"to": 473000
+			},
+			"text": " Okay, that's fine."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:53,000",
+				"to": "00:07:58,000"
+			},
+			"offsets": {
+				"from": 473000,
+				"to": 478000
+			},
+			"text": " Good morning. Thank you for calling Hurts Panorama. My name is Patty. How can I help you?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:58,000",
+				"to": "00:08:01,000"
+			},
+			"offsets": {
+				"from": 478000,
+				"to": 481000
+			},
+			"text": " Hi Patty. This is Wendy calling from..."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:01,000",
+				"to": "00:08:08,000"
+			},
+			"offsets": {
+				"from": 481000,
+				"to": 488000
+			},
+			"text": " I just have a question about a car here. I wanted to know more or less about the luxury car."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:08,000",
+				"to": "00:08:15,000"
+			},
+			"offsets": {
+				"from": 488000,
+				"to": 495000
+			},
+			"text": " This one is for a... allow me to get you that specific information there. This is the Chrysler 300 or similar."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:15,000",
+				"to": "00:08:17,000"
+			},
+			"offsets": {
+				"from": 495000,
+				"to": 497000
+			},
+			"text": " I just wanted to know more or less what year this is."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:17,000",
+				"to": "00:08:19,000"
+			},
+			"offsets": {
+				"from": 497000,
+				"to": 499000
+			},
+			"text": " Are you in a rental right now?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:19,000",
+				"to": "00:08:28,000"
+			},
+			"offsets": {
+				"from": 499000,
+				"to": 508000
+			},
+			"text": " No, but I'm actually trying to place a reservation for one of my clients, but he wants to know the exact year of this luxury Chrysler 300."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:28,000",
+				"to": "00:08:33,000"
+			},
+			"offsets": {
+				"from": 508000,
+				"to": 513000
+			},
+			"text": " Oh, okay. Let me check that for you. I'm going to... oh God. What year is it? Chrysler 300."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:33,000",
+				"to": "00:08:42,000"
+			},
+			"offsets": {
+				"from": 513000,
+				"to": 522000
+			},
+			"text": " The Chrysler 300 is... we don't have one right now, but most of our cars are new. We don't have a Chrysler 300 right now."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:42,000",
+				"to": "00:08:46,000"
+			},
+			"offsets": {
+				"from": 522000,
+				"to": 526000
+			},
+			"text": " Okay, so if I place this reservation for today, it wouldn't be available?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,000",
+				"to": "00:08:48,000"
+			},
+			"offsets": {
+				"from": 526000,
+				"to": 528000
+			},
+			"text": " No, it would not. We don't have a Chrysler 300."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:48,000",
+				"to": "00:08:49,000"
+			},
+			"offsets": {
+				"from": 528000,
+				"to": 529000
+			},
+			"text": " Okay, what are the cars..."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:49,000",
+				"to": "00:08:50,000"
+			},
+			"offsets": {
+				"from": 529000,
+				"to": 530000
+			},
+			"text": " We have a Chrysler 300."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:50,000",
+				"to": "00:08:52,000"
+			},
+			"offsets": {
+				"from": 530000,
+				"to": 532000
+			},
+			"text": " I'm going to... excuse me?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:52,000",
+				"to": "00:08:53,000"
+			},
+			"offsets": {
+				"from": 532000,
+				"to": 533000
+			},
+			"text": " Go ahead."
+		},
+		{
+			"timestamps": {
+				"from": "00:08:53,000",
+				"to": "00:08:54,000"
+			},
+			"offsets": {
+				"from": 533000,
+				"to": 534000
+			},
+			"text": " Ma'am, how can I help you?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:54,000",
+				"to": "00:09:03,000"
+			},
+			"offsets": {
+				"from": 534000,
+				"to": 543000
+			},
+			"text": " Yes? Okay. I just wanted to know more or less what cars are available at the moment because he needs to pick this car up today and I see that you guys are closing at 12 p.m."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,000",
+				"to": "00:09:05,000"
+			},
+			"offsets": {
+				"from": 543000,
+				"to": 545000
+			},
+			"text": " Yeah, so he needs a luxury car?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:05,000",
+				"to": "00:09:14,000"
+			},
+			"offsets": {
+				"from": 545000,
+				"to": 554000
+			},
+			"text": " He said he just wants to know more... he was interested in this one, but you said that they're not really available at the moment, so I don't want to go ahead and place that and that when he arrives, it's not there."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:14,000",
+				"to": "00:09:17,000"
+			},
+			"offsets": {
+				"from": 554000,
+				"to": 557000
+			},
+			"text": " So more or less, what are the cars that you have available?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:17,000",
+				"to": "00:09:19,000"
+			},
+			"offsets": {
+				"from": 557000,
+				"to": 559000
+			},
+			"text": " I'm going to put you on a brief hold."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:19,000",
+				"to": "00:09:20,000"
+			},
+			"offsets": {
+				"from": 559000,
+				"to": 560000
+			},
+			"text": " Okay."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:20,000",
+				"to": "00:09:28,000"
+			},
+			"offsets": {
+				"from": 560000,
+				"to": 568000
+			},
+			"text": " Right now, we are waiting on returns. We don't have anything available right at the moment. Would you like me to take your name and number and call you when something becomes available?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:28,000",
+				"to": "00:09:37,000"
+			},
+			"offsets": {
+				"from": 568000,
+				"to": 577000
+			},
+			"text": " Alright, so is it okay if I give you guys a call back because he said that he needs the car today, so more or less in about an hour."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:37,000",
+				"to": "00:09:46,000"
+			},
+			"offsets": {
+				"from": 577000,
+				"to": 586000
+			},
+			"text": " So I'll go ahead and send this information just to inform him that I don't see that there is anything available at the moment directly with you guys and I'll see what I can fix with him, okay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:46,000",
+				"to": "00:09:50,000"
+			},
+			"offsets": {
+				"from": 586000,
+				"to": 590000
+			},
+			"text": " Then if he decides, then I can give you guys a call back. Thank you very much."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:50,000",
+				"to": "00:09:51,000"
+			},
+			"offsets": {
+				"from": 590000,
+				"to": 591000
+			},
+			"text": " Okay, I'm going to take you so much."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:51,000",
+				"to": "00:09:52,000"
+			},
+			"offsets": {
+				"from": 591000,
+				"to": 592000
+			},
+			"text": " Alright, bye-bye."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:52,000",
+				"to": "00:09:53,000"
+			},
+			"offsets": {
+				"from": 592000,
+				"to": 593000
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:53,000",
+				"to": "00:09:54,000"
+			},
+			"offsets": {
+				"from": 593000,
+				"to": 594000
+			},
+			"text": " Yes, I'm here."
+		},
+		{
+			"timestamps": {
+				"from": "00:09:54,000",
+				"to": "00:10:13,000"
+			},
+			"offsets": {
+				"from": 594000,
+				"to": 613000
+			},
+			"text": " Thank you for holding. Okay, so I just got in contact with the agency and they explained that there are no cars available at the moment and that is why we were seeing that there is nothing available, neither for any dates on the website since it is close to California with the same agency."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:13,000",
+				"to": "00:10:26,000"
+			},
+			"offsets": {
+				"from": 613000,
+				"to": 626000
+			},
+			"text": " So they told me that there is nothing available and they're waiting on returns. So if we go ahead and book with Hertz, that would not be possible there since that is the only one that I'm seeing that is available at the moment here for the specific location and the dates."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:26,000",
+				"to": "00:10:29,000"
+			},
+			"offsets": {
+				"from": 626000,
+				"to": 629000
+			},
+			"text": " Okay, so can I go ahead and book it for the price of $300?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:29,000",
+				"to": "00:10:51,000"
+			},
+			"offsets": {
+				"from": 629000,
+				"to": 651000
+			},
+			"text": " Okay, so like I said, if you go ahead and like I said, there is no car available and the luxury Chrysler isn't available as well as for what she just told me. So it wouldn't really be recommended to go ahead and place a reservation for today or either tomorrow because it would not be available now since they are just waiting on returns at the moment. They don't have any cars available."
+		},
+		{
+			"timestamps": {
+				"from": "00:10:51,000",
+				"to": "00:10:58,000"
+			},
+			"offsets": {
+				"from": 651000,
+				"to": 658000
+			},
+			"text": " Well, can you find out? Can you do some more searching to see if there's any other locations besides Hertz that are close to me that have cars?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:58,000",
+				"to": "00:11:01,000"
+			},
+			"offsets": {
+				"from": 658000,
+				"to": 661000
+			},
+			"text": " Okay, allow me one moment there. Sarah, are you there?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:01,000",
+				"to": "00:11:02,000"
+			},
+			"offsets": {
+				"from": 661000,
+				"to": 662000
+			},
+			"text": " Yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:02,000",
+				"to": "00:11:17,000"
+			},
+			"offsets": {
+				"from": 662000,
+				"to": 677000
+			},
+			"text": " Alright, perfect. It seems that for the dates that you're looking for, since it would be from today to tomorrow or either tomorrow or the 19th, it really does tell me that there is nothing available for the dates that you are looking for or the specific location."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:17,000",
+				"to": "00:11:28,000"
+			},
+			"offsets": {
+				"from": 677000,
+				"to": 688000
+			},
+			"text": " I already tried Antioch, Concord, and I don't see anything being pulled up there for the dates that you are requesting to have this car. And everything that I try says that they are already sold out."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:28,000",
+				"to": "00:11:34,000"
+			},
+			"offsets": {
+				"from": 688000,
+				"to": 694000
+			},
+			"text": " Okay, can you find out if there's any locations close to me in Concord or any other city near me for tomorrow?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:34,000",
+				"to": "00:11:42,000"
+			},
+			"offsets": {
+				"from": 694000,
+				"to": 702000
+			},
+			"text": " Sure, okay. I'm trying everything in California and it doesn't seem that anything is giving me a location there. I've tried..."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,000",
+				"to": "00:11:44,000"
+			},
+			"offsets": {
+				"from": 702000,
+				"to": 704000
+			},
+			"text": " Okay, what about Monday?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:44,000",
+				"to": "00:11:56,000"
+			},
+			"offsets": {
+				"from": 704000,
+				"to": 716000
+			},
+			"text": " I've been changing the dates, Sarah, and I don't see that there is nothing available. All of it tells me that they are sold out for any dates because I've tried from the 17th up to the 29th and I don't see any availability."
+		},
+		{
+			"timestamps": {
+				"from": "00:11:56,000",
+				"to": "00:12:09,000"
+			},
+			"offsets": {
+				"from": 716000,
+				"to": 729000
+			},
+			"text": " Yeah, but when I look directly at the website or a different call at the website, they say there is availability. So it most likely relates to your website, right? The phone is used in the website itself."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:09,000",
+				"to": "00:12:17,000"
+			},
+			"offsets": {
+				"from": 729000,
+				"to": 737000
+			},
+			"text": " Yeah, well like I said, I'm actually not specifically on the website. I'm in my back inventory and I still don't see that there is nothing available."
+		},
+		{
+			"timestamps": {
+				"from": "00:12:17,000",
+				"to": "00:12:18,000"
+			},
+			"offsets": {
+				"from": 737000,
+				"to": 738000
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:18,000",
+				"to": "00:12:19,000"
+			},
+			"offsets": {
+				"from": 738000,
+				"to": 739000
+			},
+			"text": " Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:19,000",
+				"to": "00:12:22,000"
+			},
+			"offsets": {
+				"from": 739000,
+				"to": 742000
+			},
+			"text": " Hello? For quality assurance and training purposes, I'll be disconnecting this call."
+		}
+	]
+}
