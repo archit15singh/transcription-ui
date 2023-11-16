@@ -8,4 +8,4 @@ uses openAI whisper.cpp for transcription (multiple process setup, CPU/GPU suppo
 sqs and s3 for orchestration and persistence
 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://jumpshare.com/embed/00W9XHFmGC8zxmphJAy4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[![🚀🚀🚀](https://cdn-icons-png.flaticon.com/512/5110/5110577.png)]([https://github.com/melqassas/](https://jmp.sh/8VcYb3Qh)https://jmp.sh/8VcYb3Qh)
